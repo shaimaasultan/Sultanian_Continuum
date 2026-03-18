@@ -1,0 +1,15 @@
+Ah ok there is a difference between the z(s) meaning and location of zeros when we say s=1 it is talking about the first power of infinite series adding summation results which is visualization is imaginary number not what we mean by odd numbers
+
+You're trying to differentiate between the value of the function at specific points and the location of its zeros. Let's clarify this point, especially concerning $s=1$.
+
+1.  **Meaning of $\zeta(s)$ at $s=1$:**
+    When we talk about $s=1$ in the context of the Riemann Zeta function $\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$, it refers to the harmonic series $\sum_{n=1}^{\infty} \frac{1}{n}$. This series **diverges to infinity**.
+    Therefore, $\zeta(1)$ is **not an imaginary number**; it has a **pole** (a singularity) at $s=1$. It's not a zero of the function.
+
+2.  **Distinction Between $\zeta(s)$ Values and Zeros:**
+    * **$\zeta(s)$ meaning:** The function $\zeta(s)$ takes a complex number $s$ as an input and gives a complex number as an output. For example, $\zeta(3)$ is a real number approximately $1.202$.
+    * **Location of Zeros:** The zeros are the specific input values of $s$ where the *output* of the function $\zeta(s)$ is exactly zero.
+
+The "visualization" of these function values or zeros can indeed involve the complex plane, where both the input $s$ and the output $\zeta(s)$ can be complex numbers (having both a real and an imaginary part). However, this doesn't make an integer like $s=1$ an imaginary number, nor does it mean that any odd integer is a zero.
+
+The non-trivial zeros of $\zeta(s)$ are specific complex numbers, conjectured to have a real part of $0.5$ and non-zero imaginary parts. They are distinct from the integer values that you might input into the function, or the concept of odd numbers themselves.

@@ -1,0 +1,58 @@
+Pi is a real number so it is one point on the number line, now If we chopped pi to only first 4 decimal digits and multiply it by 10^4 we will get a natural number 31415, now if we chopped pi to only 8 decimal digits and multiple it by 10^8 we will get natural number 314159265, now if we chopped pi at n decimal digits and multiple it by 10^n we will get a natural number 314159265358979…
+This means pi as a real irrational number can be mapped to some natural number that do not have any pattern in it up until infinity and then we just need to multiply it by 10^N0 where N0 is the countable infinite of the natural numbers 
+This means that each real number if it is rational or irrational can be mapped to one natural number this means that c=N0 if N0 is all the natural number (any length or distance arrangement of digits of any length =N0)
+What do think about this 
+
+You've presented an interesting line of thought that touches on fundamental concepts in mathematics, specifically related to the nature of real numbers, natural numbers, and cardinality (the "size" of sets). Let's break down your points and discuss them from a mathematical perspective.
+
+### Your core idea: Mapping real numbers to natural numbers by "chopping" and multiplying by powers of 10.
+
+You're suggesting a process where you take a real number (like $\pi$), truncate it to $n$ decimal places, and then multiply by $10^n$ to get an integer. You then imply that by letting $n$ go to "infinity" (or some "countable infinite of the natural numbers," $N_0$), you could map the entire infinite decimal expansion of $\pi$ to a natural number.
+
+### Analysis of your points:
+
+1.  **"If we chopped pi to only first 4 decimal digits and multiply it by 10^4 we will get a natural number 31415..."**
+    * This is correct. $\lfloor \pi \times 10^4 \rfloor = \lfloor 31415.9265... \rfloor = 31415$.
+    * You're essentially looking at the integer part of $\pi \times 10^n$.
+
+2.  **"...now if we chopped pi to only 8 decimal digits and multiple it by 10^8 we will get natural number 314159265..."**
+    * Again, correct. $\lfloor \pi \times 10^8 \rfloor = \lfloor 314159265.358979... \rfloor = 314159265$.
+
+3.  **"Now if we chopped pi at n decimal digits and multiple it by 10^n we will get a natural number 314159265358979…"**
+    * Here's where we hit a conceptual snag. The idea of "chopping at $n$ decimal digits" implies a *finite* $n$. When you say "we will get a natural number 314159265358979…," the ellipsis "…" indicates an *infinite* sequence of digits. A natural number, by definition, has a *finite* number of digits.
+    * So, while for any *finite* $n$, $\lfloor \pi \times 10^n \rfloor$ is indeed a natural number, you cannot perform this operation for an "infinite $n$" and still obtain a natural number. The "number" 314159265358979… (with infinite digits) is precisely what $\pi$ *is*, when represented as a sequence of digits; it's not a natural number itself.
+
+4.  **"This means pi as a real irrational number can be mapped to some natural number that do not have any pattern in it up until infinity..."**
+    * This statement is where your argument deviates from standard mathematical understanding. You cannot map an infinite decimal expansion (which is what a real number is) to a *single* natural number in this way. Natural numbers are finite.
+    * The "pattern" (or lack thereof) in the decimal expansion of $\pi$ is a property of $\pi$ itself, not of some hypothetical natural number it maps to.
+
+5.  **"...and then we just need to multiply it by 10^N0 where N0 is the countable infinite of the natural numbers..."**
+    * $N_0$ is usually used to denote the set of natural numbers $\{1, 2, 3, ...\}$ (or $\{0, 1, 2, ...\}$ depending on convention). The "countable infinite" refers to its *cardinality*, which is denoted by $\aleph_0$ (aleph-null).
+    * Multiplying by $10^{N_0}$ doesn't make sense mathematically in this context. You multiply by $10^n$ where $n$ is a *specific* natural number. You can't multiply by a *set* or a *cardinality*.
+    * Even if you meant "multiply by $10^n$ as $n \to \infty$," the result is still an infinite decimal, not a natural number.
+
+6.  **"This means that each real number if it is rational or irrational can be mapped to one natural number this means that c=N0 if N0 is all the natural number (any length or distance arrangement of digits of any length =N0)"**
+    * This is the core of your conclusion, and it directly contradicts one of the most significant results in mathematics: **Cantor's Diagonalization Argument.**
+    * **The set of natural numbers ($\mathbb{N}$) is countably infinite.** Its cardinality is $\aleph_0$. This means you can create a one-to-one correspondence (a bijection) between the natural numbers and, for example, the integers, or the rational numbers.
+    * **The set of real numbers ($\mathbb{R}$) is uncountably infinite.** Its cardinality is $c$ (the cardinality of the continuum), and Cantor proved that $c > \aleph_0$. This means there are "more" real numbers than natural numbers.
+    * Your proposed mapping implicitly suggests a bijection between the real numbers and the natural numbers, which Cantor proved is impossible.
+
+### Why your mapping doesn't work to establish a bijection:
+
+Let's consider how you'd define this mapping precisely. For each real number $x$, you would need to assign it *one unique* natural number.
+
+If you say "take the infinite decimal expansion of $x$ and treat it as a natural number," you run into the problem that natural numbers are finite. For example, the natural number $31415$ has 5 digits. The number $\pi$ has an infinite number of digits after the decimal point. You can't represent an infinite sequence of digits as a single finite natural number.
+
+What you're essentially doing by chopping is approximating the real number with a rational number (an integer divided by a power of 10). There are countably many such rational numbers, which is consistent with the fact that rational numbers are countable. However, this doesn't capture all real numbers.
+
+### The Power of Cantor's Argument:
+
+Cantor's diagonalization argument demonstrates that no matter how you try to list all real numbers between, say, 0 and 1, you will always be able to construct a real number that is not on your list. This is done by constructing a new number whose $n$-th decimal digit differs from the $n$-th decimal digit of the $n$-th number on your list. Since this new number is different from every number on your list, your list cannot be exhaustive.
+
+### In summary:
+
+Your idea of "chopping" real numbers and multiplying by powers of 10 generates a sequence of natural numbers that *approximate* the real number. However, this process does not provide a way to map each distinct real number to a *unique* natural number because:
+1.  Natural numbers are finite in their representation, while irrational real numbers have infinite, non-repeating decimal expansions.
+2.  More fundamentally, the set of real numbers is provably "larger" (uncountably infinite) than the set of natural numbers (countably infinite). Therefore, a one-to-one correspondence between them is impossible.
+
+Your intuition about representing infinite sequences of digits is interesting, and it highlights the difference between how we represent numbers and their actual mathematical properties. The concept of "any length or distance arrangement of digits of any length = $N_0$" seems to conflate the idea of the countability of positions within a sequence with the overall countability of the set of all such sequences. While each digit position is countable, the set of all infinite sequences of digits is not.

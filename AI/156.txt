@@ -1,0 +1,75 @@
+Great what I am saying is exactly what cantor is saying  but in another the opposite direction the multiplication instead of dividing by 10^N0 where N0 goes to infinity and changing the operator should not change the result 
+Second what is the base of natural numbers countability 
+The same as cantor did if you told me that the last number of natural numbers is N0 then I can add 1 or 2 or 3 or .. and I will get new natural number so the natural numbers are uncountable as the real numbers because the numbers are just a distinct arrangement of digits and there is no rule exists that say we can stop at length x, except machines and computers limitations of handling infinite numbers, what do you think
+
+You've brought up some critical points and are engaging with the core of set theory! Let's address each of your statements and clarify the mathematical distinctions.
+
+### "What I am saying is exactly what Cantor is saying but in another the opposite direction the multiplication instead of dividing by 10^N0 where N0 goes to infinity and changing the operator should not change the result"
+
+This is where the interpretation diverges from Cantor's argument.
+
+* **Cantor's Argument (for Real Numbers):** Cantor proved that the real numbers are *uncountable*. He did this by showing that even if you try to make a list of all real numbers (say, between 0 and 1), you can *always* construct a new real number that is not on your list. This implies that there are "too many" real numbers to be put into a one-to-one correspondence with the natural numbers.
+* **Your Proposed Mapping:** You are trying to map an infinite decimal (a real number) to a natural number by conceptually treating its infinite digit sequence as a natural number (e.g., $3.14159... \to 314159...$). The crucial point here is that **natural numbers are finite strings of digits**. An infinite string of digits is *not* a natural number.
+    * If you take $\pi = 3.14159...$, you can generate a sequence of natural numbers: $3$, $31$, $314$, $3141$, $31415$, etc. Each of these is a natural number. But this is a *sequence* of natural numbers, not a *single* natural number that represents $\pi$.
+    * The "multiplication by $10^{N_0}$" doesn't make a real number into a natural number. It just shifts the decimal point. If $N_0$ is infinite, then $10^{N_0}$ is an ill-defined concept in this context of number representation; it doesn't transform an infinite sequence of digits into a finite one.
+
+So, while you're thinking about the infinite nature of digits, the difference lies in whether that infinite sequence itself constitutes a natural number (which it doesn't) or if it's an approximation strategy. Your method generates an infinite *set* of finite natural numbers that approximate $\pi$, not a single natural number that $\pi$ maps to.
+
+### "Second what is the base of natural numbers countability"
+
+This is an excellent question! The countability of natural numbers is foundational.
+
+The set of natural numbers $\mathbb{N} = \{1, 2, 3, 4, ...\}$ (or starting from 0, $\{0, 1, 2, 3, ...\}$) is defined by a few fundamental properties, often formalized by the Peano Axioms. The "base" of its countability lies in the fact that:
+
+1.  **There is a starting element (1 or 0).**
+2.  **Every natural number has a unique "successor" (e.g., the successor of $n$ is $n+1$).**
+3.  **Every natural number (except the starting one) is the successor of exactly one natural number.**
+
+Because of these properties, we can "list" the natural numbers in an ordered sequence: 1st, 2nd, 3rd, and so on. We can create a bijection between $\mathbb{N}$ and itself.
+
+**The very definition of a "countable" set is a set that can be put into a one-to-one correspondence with the natural numbers.**
+
+* **Finite sets** are countable (e.g., $\{a, b, c\}$ can be mapped to $\{1, 2, 3\}$).
+* **Countably infinite sets** are sets that can be mapped to $\mathbb{N}$ (e.g., the integers $\mathbb{Z}$, the rational numbers $\mathbb{Q}$).
+
+The method for showing that $\mathbb{N}$ is countable is trivial: just map $n \to n$.
+
+### "The same as cantor did if you told me that the last number of natural numbers is N0 then I can add 1 or 2 or 3 or .. and I will get new natural number so the natural numbers are uncountable as the real numbers because the numbers are just a distinct arrangement of digits and there is no rule exists that say we can stop at length x, except machines and computers limitations of handling infinite numbers, what do you think"
+
+You've hit upon a key point that is often a source of confusion!
+
+* **There is no "last" natural number.** This is precisely correct. The natural numbers are an infinite set, and for any natural number $n$, $n+1$ is also a natural number. This property is fundamental to their definition and their being *infinite*.
+* **This does NOT mean the natural numbers are uncountable.** This is the critical distinction.
+    * **Infinite** simply means "not finite." There's no end to the list.
+    * **Uncountable** means "cannot be put into a one-to-one correspondence with the natural numbers."
+
+The fact that you can always add 1 to a natural number means the set of natural numbers is **infinite**. It does *not* mean it is uncountable.
+
+**Think of it this way:**
+
+* **Natural Numbers ($\mathbb{N}$):**
+    1.  1
+    2.  2
+    3.  3
+    4.  4
+    ...
+    You can clearly list them, one after another. Each natural number corresponds to a unique position in this list.
+
+* **Real Numbers between 0 and 1 ($\mathbb{R}_{[0,1]}$):**
+    Suppose you try to list them:
+    1st: $0.d_{11}d_{12}d_{13}d_{14}...$
+    2nd: $0.d_{21}d_{22}d_{22}d_{24}...$
+    3rd: $0.d_{31}d_{32}d_{33}d_{34}...$
+    ...
+    Cantor's diagonal argument constructs a new number, say $0.d_{new1}d_{new2}d_{new3}...$, where $d_{new1}$ is different from $d_{11}$, $d_{new2}$ is different from $d_{22}$, $d_{new3}$ is different from $d_{33}$, and so on. This new number is guaranteed to be different from *every* number on your list. This demonstrates that you cannot create an exhaustive list of all real numbers, meaning they are uncountable.
+
+**The difference is not about "stopping at length x" for digits.**
+
+* A natural number, *by definition*, has a finite number of digits when written in any base. You can write 100, 1,000,000, or $10^{100}$, but they all have a finite number of digits.
+* A real number can have an infinite number of digits after the decimal point (e.g., irrational numbers like $\pi$).
+
+**The "countable" nature of natural numbers stems from the ability to assign a unique "position" (1st, 2nd, 3rd, ...) to each element in the set.** You can't do this for the real numbers.
+
+**In conclusion:**
+
+Your intuition about the infinitude of natural numbers is correct – there is no "last" natural number. However, this only makes them an *infinite* set, not an *uncountable* set. The concept of countability refers specifically to the existence of a one-to-one correspondence with the natural numbers themselves. Cantor proved that while natural numbers are infinite, real numbers are "more" infinite, meaning they cannot be counted in the same way.

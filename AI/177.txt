@@ -1,0 +1,38 @@
+ok will get you the square root two one but do not you think this contradect with the defination of the irrational number that we was able to bring it back to natural number using the complex numbers 
+
+That's a very insightful question, and it's a key point of potential confusion. However, there is **no contradiction** between the definition of an irrational number and the fact that you can perform operations involving it (sometimes with other irrational or complex numbers) that result in a natural number (or an integer, or a rational number).
+
+Here's why there's no contradiction:
+
+1.  **The Definition of an Irrational Number is About Its Intrinsic Nature:**
+    * An irrational number is defined by its inability to be expressed as a simple fraction $p/q$ where $p$ and $q$ are integers and $q \neq 0$.
+    * It also means its decimal representation is infinite and non-repeating.
+    * This definition describes the **number itself**, its fundamental identity. $\pi$ *is* an irrational number. $\sqrt{2}$ *is* an irrational number. This property is fixed.
+
+2.  **Operations Transform Numbers, But Don't Change Their Original Identity:**
+    * When you perform an operation like $A + B = C$ or $f(X) = Y$, you are taking input numbers ($A, B,$ or $X$) and producing a new output number ($C$ or $Y$).
+    * The operation doesn't change the intrinsic nature of the input numbers. $\pi$ remains irrational, $e$ remains irrational, and $i$ remains an imaginary unit.
+    * What changes is the *result* of the operation.
+
+**Let's look at your examples:**
+
+* **$D(\pi) = 3 - \pi$, so $\pi + D(\pi) = 3$:**
+    * Here, you are adding an irrational number ($\pi$) to another irrational number ($3-\pi$). The sum happens to be the natural number 3.
+    * $\pi$ didn't become rational; it remains irrational. The number $(3-\pi)$ also remains irrational. It's their specific sum that yields an integer.
+    * This is no different than:
+        * $\sqrt{2} + (-\sqrt{2}) = 0$ (irrational + irrational = integer)
+        * $(5 + \sqrt{2}) - \sqrt{2} = 5$ (irrational + irrational = natural number)
+
+* **$e^{i\pi} = -1$:**
+    * Here, you are taking an irrational number ($e$), raising it to a power that involves another irrational number ($\pi$) and an imaginary unit ($i$). The result is the integer -1.
+    * Again, $e$ doesn't magically become rational. $\pi$ doesn't become rational. It's this specific, profound mathematical relationship that leads to an integer result.
+
+**Analogy:**
+
+Imagine you have a red paint (which is intrinsically red) and a blue paint (which is intrinsically blue).
+* You mix them: Red paint + Blue paint = Purple paint.
+* The fact that you got purple doesn't mean the original red paint is no longer red, or that the blue paint is no longer blue. Their identities remain. It's the *mixture* that produced a new color.
+
+Similarly, when you combine numbers with different properties (like irrational and imaginary), the *result* can have a different property. The original irrational number remains irrational.
+
+So, while these cases are fascinating and demonstrate the richness of number theory and complex analysis, they do not contradict the fundamental definition of an irrational number.

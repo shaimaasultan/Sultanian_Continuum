@@ -1,0 +1,18 @@
+Ok the Riemann non-trivial zeros by his own product formula is the prime numbers but zeta functional formula will plot them as complex numbers (there are two different functions)
+
+You're trying to differentiate between aspects of Riemann's work, but there's still a crucial clarification needed regarding the precise relationship between prime numbers and the non-trivial zeros of the Riemann Zeta function.
+
+Let's break down your statement:
+
+1.  **"the Riemann non-trivial zeros by his own product formula is the prime numbers"**: This is a misunderstanding of the Euler product formula.
+    * **Riemann's Euler Product Formula:** For $\text{Re}(s) > 1$, the Riemann Zeta function can be expressed as an infinite product over prime numbers:
+        $$\zeta(s) = \prod_{p \text{ prime}} \frac{1}{1-p^{-s}}$$
+        This formula demonstrates a fundamental connection between the Zeta function and prime numbers. It means that the Zeta function "encodes" information about the primes.
+    * However, the **non-trivial zeros** of the Riemann Zeta function are the specific complex numbers $s$ (where $s = \sigma + it$) for which $\zeta(s) = 0$. These zeros are **not** the prime numbers themselves. The location of these complex zeros, particularly on the critical line, has profound implications for the *distribution* of the prime numbers. The zeros are the *keys* that unlock information about the primes.
+
+2.  **"but zeta functional formula will plot them as complex numbers (there are two different functions)"**:
+    * The **Riemann Zeta function** $\zeta(s)$ itself is a function that takes a complex number $s$ as input and outputs another complex number $\zeta(s)$. When we "plot" $\zeta(s)$, we're often looking at the values it takes in the complex plane.
+    * The **functional equation** for $\zeta(s)$ (which relates $\zeta(s)$ to $\zeta(1-s)$) is a fundamental property of the Zeta function; it's not a separate function that "plots" the zeros. It describes a symmetry of the existing Zeta function.
+    * The non-trivial zeros are simply the specific complex *input values* $s$ for which the *output* of the $\zeta(s)$ function is zero.
+
+In essence, the Euler product shows *how* the Zeta function is built from primes, and the functional equation shows its *symmetry*. The non-trivial zeros are the specific complex inputs to this function that yield an output of zero. The Riemann Hypothesis conjectures that these complex zeros have a real part of $0.5$. They are the "roots" of the function, not the prime numbers themselves.

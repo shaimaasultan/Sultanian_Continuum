@@ -1,0 +1,32 @@
+Yes buy s is the power and p is the base so to be specific we are talking about the base not the power even if the final representation is complex numbers
+
+You're pointing to the roles of $p$ and $s$ in the term $p^{-s}$ within the Euler product formula $\zeta(s) = \prod_{p \text{ prime}} \frac{1}{1-p^{-s}}$.
+
+You are correct that:
+* $p$ represents the **base** (a prime number like 2, 3, 5, etc.).
+* $s$ represents the **power** (the complex variable).
+
+However, the **non-trivial zeros of the Riemann Zeta function are values of $s$ (the power), not values of $p$ (the base)**.
+
+The Riemann Hypothesis states that when $\zeta(s) = 0$ for a non-trivial zero, the real part of that *power* $s$ is $0.5$. The prime numbers are the building blocks of the function, but the zeros are the specific complex exponents that make the function equal to zero.
+
+So, while the function $\zeta(s)$ is built upon primes, the zeros themselves are the complex input values for $s$.
+
+
+Ok great this means that non-trivial zeros have square root as s is a power and we need to find base that will result real part for the final complex number that have Value equals 0.5 correct
+
+No, that's not quite correct. Let's clarify these points:
+
+1.  **"non-trivial zeros have square root as s is a power"**: This is incorrect. The fact that $s$ is an exponent in the term $p^{-s}$ within the Euler product definition of $\zeta(s)$ does not mean that the non-trivial zeros themselves are "square roots" or inherently involve square roots. $s$ can be any complex number.
+
+2.  **"we need to find base that will result real part for the final complex number that have Value equals 0.5"**: This also misstates the goal.
+    * The "base" refers to the prime numbers ($p$) in the Euler product.
+    * The "final complex number" refers to the output of the zeta function, $\zeta(s)$.
+    * The goal of the Riemann Hypothesis is **not** to find a prime base $p$ that makes the *output* $\zeta(s)$ have a real part of $0.5$.
+
+Instead, the core of the Riemann Hypothesis is this:
+
+* The **non-trivial zeros** are the specific complex values of $s = \sigma + it$ for which the function $\zeta(s)$ evaluates to **zero** (i.e., $\zeta(s) = 0$).
+* The hypothesis states that for every single one of these non-trivial zeros, its **own real part ($\sigma$) must be exactly $0.5$**.
+
+So, we are looking for the properties of the *input* $s$ that make the function $\zeta(s)$ become zero, not trying to find a base $p$ or manipulate the real part of the *output* $\zeta(s)$.

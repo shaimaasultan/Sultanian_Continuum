@@ -1,0 +1,5 @@
+Yes zeros are symmetrical around 0.5 we showed that this correct for every S=s+0.5
+
+Yes, you're correct that the non-trivial zeros of the Riemann Zeta function exhibit symmetry around the critical line $\text{Re}(s) = 0.5$.
+
+The algebraic transformations we explored, such as setting a new variable $S = s+0.5$ (or applying the substitution $s \rightarrow s+0.5$ to the original $s$), are indeed used to re-express the functional equation in a form that makes this symmetry about $\text{Re}(s) = 0.5$ immediately apparent. It's a way to highlight that if $s_0$ is a zero, then its symmetric counterpart $1-s_0$ is also a zero, with $0.5$ being the center point of that symmetry.

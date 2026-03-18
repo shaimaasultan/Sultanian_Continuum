@@ -1,0 +1,13 @@
+Yes the s=0.5 or s=s+0.5 is our symmetrical line does not contradict with s being a power in our original zeta series meaning our infinite series will still have power of 0.5 for each term in the original infinite summation series
+
+Yes, you're right that $s$ is the power in the terms $n^{-s}$ of the Riemann Zeta function's original infinite series definition $\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$.
+
+And you are also correct that $\text{Re}(s) = 0.5$ represents the symmetrical line for the functional equation of the Zeta function.
+
+However, it's important to clarify how this relates to the "power of 0.5 for each term":
+
+* The infinite summation series $\zeta(s) = \sum_{n=1}^{\infty} n^{-s}$ is only mathematically valid (converges) for complex numbers $s$ where the real part $\text{Re}(s) > 1$.
+* The non-trivial zeros of the Riemann Zeta function are hypothesized to lie on the line $\text{Re}(s) = 0.5$. Since $0.5$ is not greater than $1$, the original infinite summation series **does not converge** on this line.
+* The Zeta function is extended to the entire complex plane (except for a pole at $s=1$) through a process called **analytic continuation**. The zeros at $\text{Re}(s)=0.5$ are properties of this analytically continued function, not directly of the simple sum $\sum n^{-0.5}$.
+
+So, while $s$ is indeed a power, and the hypothesis concerns the real part of $s$ being $0.5$, it's crucial to remember that this refers to the domain of the analytically continued function, not a direct term-by-term evaluation of the original infinite series at $s=0.5$.

@@ -1,0 +1,25 @@
+I understand that will not get exactly the location of Riemann zeros but will proof that you can not find one of them outside this hypothesis so basically prove that it is correct
+
+Yes, that is exactly the goal of proving the Riemann Hypothesis.
+
+To prove the Riemann Hypothesis is to demonstrate rigorously that all non-trivial zeros of the Riemann Zeta function are indeed confined to the critical line $\text{Re}(s) = 1/2$, and that you cannot find any such zeros elsewhere in the critical strip. Your phrasing "you can not find one of them outside this hypothesis" perfectly captures the essence of what needs to be shown to prove the hypothesis correct.
+
+
+Great so proving that every odd number is transformed lie on the imaginary axis shows that you can not find any of Riemann hypothesis Zeroes outside this set of odd numbers which will prove that Riemann hypothesis is correct
+
+You're making a connection between "every odd number" and the Riemann Hypothesis zeros, suggesting that if odd numbers transform to the imaginary axis, it proves the RH. This is a crucial point to clarify, as it seems to conflate distinct concepts.
+
+Here's why that connection is not directly valid for proving the Riemann Hypothesis:
+
+1.  **"Odd Numbers" vs. Riemann Hypothesis Zeros:**
+    * The **Riemann Hypothesis** is about the **non-trivial zeros** of the Riemann Zeta function $\zeta(s)$. These are complex numbers, $s = \sigma + it$, and they are conjectured to lie on the line $\text{Re}(s) = 1/2$.
+    * **Odd numbers** (like $1, 3, 5, \ldots$) are positive integers. They are fundamentally different from the non-trivial zeros of $\zeta(s)$. While the Zeta function itself can be evaluated at odd integers (e.g., $\zeta(3)$ is Apéry's constant), these are specific values of the function, not its zeros.
+    * The only "zeros" of the zeta function related to integers are the **trivial zeros**, which occur at the negative *even* integers: $s = -2, -4, -6, \ldots$.
+
+2.  **Transforming "Odd Numbers" to the Imaginary Axis:**
+    Even if you have a mathematical identity or transformation that maps all positive odd integers to points on the imaginary axis, this **does not tell us anything about the location of the non-trivial zeros of the Riemann Zeta function**. The non-trivial zeros are not odd numbers. They are specific complex numbers determined by the definition of the zeta function.
+
+3.  **Proving the Riemann Hypothesis:**
+    To prove the Riemann Hypothesis, one must demonstrate, through rigorous mathematical argument, that for *any* complex number $s$ such that $\zeta(s) = 0$ (and $s$ is not a trivial zero), its real part $\text{Re}(s)$ *must* be exactly $1/2$. This proof needs to operate directly on the properties of the zeta function and its relationship to other complex functions. It cannot be achieved by showing properties of odd integers, even if they are involved in some separate identity.
+
+In essence, while your work might introduce fascinating identities related to odd numbers or specific transformations, those are distinct from the complex numbers that are the non-trivial zeros of the Riemann Zeta function. The challenge of the Riemann Hypothesis lies in proving the real part of *those specific complex zeros* is $1/2$.

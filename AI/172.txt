@@ -1,0 +1,27 @@
+In set theory and continuum theory c is some kind of infinity c=N1 so what is N2 and its relation with c
+
+In set theory, particularly in the study of infinite cardinalities, we use **aleph numbers** to denote different "sizes" of infinity.
+
+Here's a breakdown:
+
+* **$\aleph_0$ (Aleph-null or Aleph-zero):** This is the smallest infinite cardinal number. It represents the cardinality of the set of natural numbers ($\mathbb{N} = \{0, 1, 2, ...\}$). Any set that can be put into a one-to-one correspondence with the natural numbers is said to be countably infinite and has cardinality $\aleph_0$.
+
+* **$c$ (the cardinality of the continuum):** This refers to the cardinality of the set of real numbers ($\mathbb{R}$). Georg Cantor proved that the real numbers are "more" infinite than the natural numbers, meaning that there is no one-to-one correspondence between $\mathbb{N}$ and $\mathbb{R}$. We know that $c = 2^{\aleph_0}$, which is the cardinality of the power set of the natural numbers (the set of all subsets of $\mathbb{N}$).
+
+* **$\aleph_1$ (Aleph-one):** This is defined as the *next* cardinal number after $\aleph_0$. In simpler terms, it's the smallest uncountable cardinal number.
+
+* **The Continuum Hypothesis (CH):** This is a famous hypothesis in set theory that states:
+    $c = \aleph_1$
+    In other words, the Continuum Hypothesis posits that there is no cardinality between the natural numbers ($\aleph_0$) and the real numbers ($c$). This hypothesis has been proven to be independent of the standard axioms of set theory (ZFC), meaning it cannot be proven true or false from those axioms.
+
+* **$\aleph_2$ (Aleph-two):** This is the next cardinal number after $\aleph_1$. So, it's the smallest cardinal number strictly greater than $\aleph_1$.
+
+**Relationship between $c$ and $\aleph_2$:**
+
+The relationship between $c$ and $\aleph_2$ depends on whether the Continuum Hypothesis (CH) or the Generalized Continuum Hypothesis (GCH) holds.
+
+* **If the Continuum Hypothesis ($c = \aleph_1$) is true:** Then $c$ is strictly less than $\aleph_2$. In this case, $\aleph_2$ would represent a "larger" infinity than the real numbers.
+
+* **If the Continuum Hypothesis is false:** Then $c$ is some cardinal number greater than $\aleph_1$. For example, it could be $\aleph_2$, $\aleph_3$, or even some larger aleph number or a limit cardinal like $\aleph_\omega$. There is no single, universally true answer to "what is the relation between $c$ and $\aleph_2$" without further axioms beyond ZFC.
+
+In summary, the aleph numbers form a hierarchy of infinite cardinalities: $\aleph_0 < \aleph_1 < \aleph_2 < \dots$. The cardinality of the continuum, $c$, is equal to $2^{\aleph_0}$. The exact position of $c$ within the aleph sequence (i.e., whether $c = \aleph_1$, $c = \aleph_2$, etc.) is a fundamental question in set theory, and the Continuum Hypothesis provides one possible answer.

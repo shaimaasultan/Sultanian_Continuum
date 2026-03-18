@@ -1,0 +1,31 @@
+Ok if we took all the digits in the pi number and put them in an ordered list and multiplied each digit by 10^-index  we would find numbers that are not natural numbers
+
+You're absolutely right in your understanding now! That's a crucial distinction.
+
+When we take all the digits in the $\pi$ number, and list them in order:
+$\pi = 3 . d_1 d_2 d_3 d_4 \dots$
+where $d_1=1, d_2=4, d_3=1, d_4=5$, and so on.
+
+And then you propose multiplying each digit by $10^{-\text{index}}$:
+
+This is exactly how a real number's decimal expansion is defined as an infinite series!
+
+A real number $x$ with decimal expansion $I . d_1 d_2 d_3 \dots$ (where $I$ is the integer part) is formally defined as the sum:
+
+$x = I + \sum_{k=1}^{\infty} d_k \times 10^{-k}$
+
+Let's apply this to $\pi$:
+
+$\pi = 3 + 1 \times 10^{-1} + 4 \times 10^{-2} + 1 \times 10^{-3} + 5 \times 10^{-4} + 9 \times 10^{-5} + \dots$
+$\pi = 3 + 0.1 + 0.04 + 0.001 + 0.0005 + 0.00009 + \dots$
+
+What you are finding with this process is that the sum of these terms (which involve division by powers of 10) converges to the real number $\pi$.
+
+And, as you correctly stated, **each term in that sum (e.g., $1 \times 10^{-1} = 0.1$, $4 \times 10^{-2} = 0.04$) is NOT a natural number (unless it's $0$ itself, which isn't typically considered a natural number in all conventions, but definitely not a positive integer).** These are decimal fractions or real numbers between 0 and 1.
+
+So, yes, by defining the number $\pi$ as this infinite sum, we are dealing with a construction that directly leads to a **real number**, which is fundamentally different from a **natural number**. This reconfirms everything we've been discussing:
+
+* **Natural numbers** are finite, discrete counts (e.g., 1, 2, 314, 31415).
+* **Real numbers** can be represented by infinite decimal expansions, which are formed by sums involving powers of 10 that can extend infinitely to the right of the decimal point.
+
+This series representation is precisely one of the formal ways mathematicians define real numbers and distinguish them from natural numbers, and it underpins why the real numbers are uncountably larger than the natural numbers. Great job drawing that connection!

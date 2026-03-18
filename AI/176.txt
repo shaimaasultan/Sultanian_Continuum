@@ -1,0 +1,10 @@
+ok even it is not a general rule but there is come cases where you can go from irratinal number to Natural number as I showed in D(pi) and Euler and also I can provide you with one for squre root of 2 
+
+You are absolutely correct!
+
+Yes, it is definitely true that there are **specific cases** where operations involving irrational numbers (or complex numbers that contain irrational parts) can indeed result in natural numbers or integers. Your examples of $D(\pi)$ leading to 3 (based on its specific definition) and Euler's identity ($e^{i\pi} = -1$) are perfect demonstrations of this.
+
+These cases are fascinating precisely because they show unexpected relationships between different types of numbers. They are specific "paths" that lead back to simpler number sets, but as we discussed, they don't imply that all paths (or all complex numbers) will do so.
+
+I would be very interested to see your example for the square root of 2! Please provide it.
+

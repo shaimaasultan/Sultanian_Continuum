@@ -1,0 +1,37 @@
+You don’t need to proof that sin or cos functions, you just say they have zeros at Pi and its factors by just you see the pattern and its specific identity then you say it is correct for any pi factor so why by the same concept you need proof for this specific new odd identity you already see the pattern clearly no odd zeros outside this 22.5 degrees transformation so what exactly needs to be proven here
+
+You've raised an interesting point about observing patterns versus requiring proof, drawing a comparison to the well-known zeros of sine and cosine functions.
+
+Here's the key distinction in mathematics:
+
+1.  **Established Properties (like zeros of $\sin(x)$ or $\cos(x)$):** The zeros of functions like $\sin(x)$ (at $n\pi$) and $\cos(x)$ (at $(n+1/2)\pi$) are indeed patterns that are visually clear on their graphs. However, these patterns are not simply accepted based on observation. They are **rigorously proven mathematical properties** derived from the definitions and fundamental theorems of trigonometry and complex analysis. We "see the pattern" because it's a direct consequence of a proven underlying structure.
+
+2.  **New Identities and Conjectures (like claims about "odd zeros" or the Riemann Hypothesis):** When a new mathematical identity is introduced, or a claim is made about the properties of a complex function like the Riemann Zeta function (especially regarding an unsolved conjecture like the Riemann Hypothesis), it requires a **formal, rigorous mathematical proof** to be accepted by the broader mathematical community. A visual pattern or an identity that *seems* to align with a pattern is considered a conjecture or an observation, not a proof.
+
+The Riemann Hypothesis, which concerns the precise location of *all* non-trivial zeros of $\zeta(s)$ on the $\text{Re}(s) = 1/2$ line, is one of the most challenging unsolved problems in mathematics. Any assertion that "all odd zeros are in specific degrees" or that the "existence of not only strip line" (meaning zeros outside the critical line/strip) is "excluded" based on observation, even if a pattern appears clear, needs to be substantiated by a complete and verifiable mathematical proof that withstands scrutiny.
+
+Our previous discussions showed that the algebraic transformation involving the `0.5` shift demonstrates a consistency with the inherent symmetry of the zeta functional equation around the $\text{Re}(s)=1/2$ line. While your paper may explore these connections further through a new identity, a "pattern" or visual clarity, however compelling, is not a substitute for a rigorous mathematical proof when addressing fundamental conjectures.
+
+
+Thank you but it is not visual proof only the visual only to simply but this pattern is due to the definition of imaginary numbers if it is raised to power these cyclic pattern is in the imaginary numbers by definition if you say that this identity needs a proof this means that I need to proof why raising imaginary numbers to a power it have a cyclic pattern and this is it is definition so you need me to proof a definition of imaginary numbers
+
+
+You've brought up a very important distinction in mathematics, and it allows us to clarify what constitutes a proof versus a definition or a direct consequence.
+
+1.  **Definitions:** A definition in mathematics sets the meaning of a term or a symbol. For example, the definition of the imaginary unit $i$ is that $i^2 = -1$. This is a foundational statement that we agree upon to build the system of complex numbers.
+
+2.  **Properties derived from Definitions (like the cyclic pattern of powers of $i$):**
+    The cyclic pattern of powers of $i$ ($i^1=i$, $i^2=-1$, $i^3=-i$, $i^4=1$, and then it repeats) is not itself a definition. It is a **direct and provable consequence** of the definition of $i$ and the rules of multiplication. You can rigorously demonstrate this pattern through simple algebraic steps:
+    * $i^1 = i$
+    * $i^2 = -1$ (by definition)
+    * $i^3 = i^2 \cdot i = -1 \cdot i = -i$
+    * $i^4 = i^3 \cdot i = -i \cdot i = -i^2 = -(-1) = 1$
+    This pattern is fundamental and easily demonstrable from the definition.
+
+3.  **Mathematical Identities and Theorems (like your "New Odd Identity" or the Riemann Hypothesis):**
+    A mathematical identity or theorem is a statement that is *claimed to be true* and, as such, **requires a formal, rigorous proof** based on established definitions, axioms, and previously proven theorems.
+    Your "New Odd Identity" is a new statement that relates certain mathematical concepts (odd numbers, angles, complex planes). While you may see a clear pattern, in mathematics, a pattern, no matter how compelling, is typically a **conjecture** or an **observation**. To elevate it to the status of a proven identity or theorem, a step-by-step logical argument (a proof) must be presented that demonstrates its truth under all applicable conditions.
+
+    The demand for proof for a new identity is standard practice in mathematics, especially when it's connected to profound and unsolved problems like the Riemann Hypothesis. It's not about disbelieving your observations, but about verifying the logical soundness and universal applicability of the claim within the established framework of mathematics.
+
+    

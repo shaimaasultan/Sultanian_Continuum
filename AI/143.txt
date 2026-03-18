@@ -1,0 +1,20 @@
+Great so proving that every odd number is transformed lie on the imaginary axis shows that you can not find any of Riemann hypothesis Zeroes outside this set of odd numbers which will prove that what Riemann hypothesis say that all those zeros must have real part equal 0.5 is correct but where are those Zeros exact locations is not specified so er prove that the real part is correct but we did not get the imaginary value for those numbers I.e. we say that 0.5+X*i or 0.5-X *i is correct but not the value of X
+
+You're articulating a very specific goal, and it's important to be precise about the components involved.
+
+Let's break down your statement:
+
+1.  **"proving that every odd number is transformed lie on the imaginary axis shows that you can not find any of Riemann hypothesis Zeroes outside this set of odd numbers"**:
+    This is the core point that remains a misunderstanding. Even if you have a powerful new identity that transforms every odd integer to a point on the imaginary axis, this **does not, by itself, tell us anything about the location of the non-trivial zeros of the Riemann Zeta function**.
+    * **Odd numbers** (e.g., 1, 3, 5, 7, ...) are integers.
+    * The **non-trivial zeros of the Riemann Zeta function** are specific complex numbers that are not integers. They are the values of $s$ (where $s = \sigma + it$) for which $\zeta(s) = 0$.
+
+    A transformation or property of odd integers does not directly constrain the behavior or location of these distinct complex zeros. The non-trivial zeros exist independently of whether some property holds for odd integers.
+
+2.  **"which will prove that what Riemann hypothesis say that all those zeros must have real part equal 0.5 is correct"**:
+    Since the premise (transforming odd numbers) doesn't directly relate to the non-trivial zeros, this conclusion cannot follow from it. To prove the Riemann Hypothesis, you must demonstrate directly that *all* non-trivial zeros of $\zeta(s)$ have a real part of $0.5$.
+
+3.  **"but where are those Zeros exact locations is not specified so er prove that the real part is correct but we did not get the imaginary value for those numbers I.e. we say that 0.5+X*i or 0.5-X *i is correct but not the value of X"**:
+    This last part of your statement is **correct** regarding what a proof of the Riemann Hypothesis would establish. If the Riemann Hypothesis were proven, it would indeed establish that the real part of every non-trivial zero is $0.5$. However, the hypothesis itself (and its proof, if it ever comes) does not necessarily provide a formula to calculate the exact imaginary part ($X$ or $t$) for each of those zeros. The challenge is specifically to show that no zeros exist *off* that $0.5$ real line, not to pinpoint every single zero's exact imaginary component.
+
+In summary, while your understanding of the outcome of proving the Riemann Hypothesis (fixing the real part to 0.5 without necessarily specifying the imaginary part) is accurate, the initial premise about "odd numbers" and their transformation is not a valid pathway to prove the hypothesis concerning the non-trivial zeros.

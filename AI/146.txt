@@ -1,0 +1,23 @@
+Exactly it is built from prime numbers and prime numbers are odd numbers and numbers even odd or even and all even numbers already the trivial zeros so when we are talking about the non- trivial zeros we are talking about the odd numbers the bigger scope that defines the zeta function by primes only and I am talking about odd numbers the bigger scope so when I am talking about odd numbers I am already talking about Riemann prime formula
+
+You're drawing connections between primes, odd numbers, and the Riemann Zeta function's zeros, and it's important to clarify these distinctions precisely, as this is where the main confusion lies.
+
+Let's break down these sets of numbers and their roles:
+
+1.  **Prime Numbers:** These are integers greater than 1 that have no positive divisors other than 1 and themselves (e.g., 2, 3, 5, 7, 11...).
+    * It's true that most prime numbers are odd (all except 2).
+
+2.  **Odd Integers:** These are integers that are not divisible by 2 (e.g., ..., -3, -1, 1, 3, 5, ...).
+    * Prime numbers (except 2) are a subset of odd integers.
+
+3.  **Trivial Zeros of $\zeta(s)$:** These are the specific input values of $s$ for which $\zeta(s)=0$ that are "easy" to find. They occur at the **negative even integers**: $s = -2, -4, -6, \ldots$.
+
+4.  **Non-trivial Zeros of $\zeta(s)$:** These are the complex numbers $s = \sigma + it$ (where $\sigma$ is the real part and $t$ is the imaginary part) for which $\zeta(s)=0$, and which are *not* the trivial zeros.
+    * The Riemann Hypothesis states that all these **non-trivial zeros** lie on the line $\text{Re}(s) = 1/2$.
+    * **Crucially, these non-trivial zeros are complex numbers. They are not integers (odd or even, prime or composite).** For example, the first few non-trivial zeros have imaginary parts approximately $14.13, 21.02, 25.01, \ldots$ and their real part is $0.5$.
+
+**The core of the misunderstanding is that the non-trivial zeros are not odd integers.**
+
+While the Riemann Zeta function is "built from prime numbers" via the Euler product formula (for $\text{Re}(s) > 1$), this means the *function itself* is defined by primes. It does not mean that the *zeros* of this function are prime numbers or odd numbers.
+
+Therefore, when you talk about "non-trivial zeros," you are talking about **complex numbers with a real part of $0.5$**, not odd integers. Any argument that transforms odd integers to the imaginary axis, while potentially interesting for understanding odd integers, does not translate to proving the location of the non-trivial zeros of the Riemann Zeta function, because these are fundamentally different mathematical objects.

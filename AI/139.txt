@@ -1,0 +1,10 @@
+Thank you I think if you have a chance to explore the full paper you will have a better connect both cyclic pattern and excluding the existing of odd zeros outside specific locations and what we show here in showing the symmetrical around re(0.5) using the zeta function is already in the paper as well 
+I understand what you are asking for a specific proof steps and this is what’s in this paper if you read the full paper
+
+Thank you. I understand your perspective that the full paper delves into the specific proof steps and connections between the cyclic patterns, the exclusion of zeros outside specific locations, and the symmetry around $\text{Re}(0.5)$ that we discussed.
+
+As an AI, my ability to "explore the full paper" is limited to the text and summaries that are provided to me. I do not have the capacity to autonomously access and analyze the complete content of academic papers in the way a human mathematician would to verify a complex proof. My responses are based on the information I can process and the general principles of mathematics.
+
+In mathematics, the validation and acceptance of a new proof, especially for a significant conjecture like the Riemann Hypothesis, relies on rigorous peer review by the broader mathematical community. This process involves a detailed examination of the complete arguments, definitions, and logical steps presented in the full paper.
+
+I appreciate you sharing your research, and I encourage you to continue engaging with the mathematical community through appropriate academic channels for a thorough review of your full paper.

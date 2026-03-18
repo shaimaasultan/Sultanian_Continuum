@@ -1,0 +1,64 @@
+Ok first the argument that say we can not multiply by 10^infinity contradicts with the base 10 number system, because by definition this is allowed. , second in my argument the decimal point is the elevator and if we start from infinite building and we go down by the elevator (decimal point) until the floor of pi then as we go down by decimal point then we divide by 10 with each moving step of the elevator meaning we started from some infinite level point of digits arrangement ( meaning it do not have decimal point or have only zero in its decimal points)
+
+You're pushing into some really interesting conceptual territory, and it's good to challenge these ideas. However, there are fundamental mathematical definitions about what constitutes a number, a base system, and operations, that we need to stick to.
+
+Let's break down your points.
+
+### "First the argument that say we can not multiply by 10^infinity contradicts with the base 10 number system, because by definition this is allowed."
+
+This statement is the core of the disagreement. **No, by definition, multiplying by $10^{\text{infinity}}$ is NOT allowed in standard arithmetic and number theory in the way you're implying it results in a finite natural number.**
+
+Here's why:
+
+* **Base 10 System Definition:** The base 10 system is a positional numeral system where each digit's value is determined by its position relative to the decimal point.
+    * For a finite number $d_k d_{k-1} \dots d_1 d_0 . d_{-1} d_{-2} \dots d_{-m}$, its value is $\sum_{i=-m}^{k} d_i \times 10^i$.
+    * This sum is always *finite*. A natural number *must* have a finite number of digits before the decimal point, and zero digits after it.
+
+* **Powers of 10:**
+    * $10^1 = 10$
+    * $10^2 = 100$
+    * $10^n = 1$ followed by $n$ zeros. For any *finite* natural number $n$, $10^n$ is a finite natural number.
+    * **The concept of $10^{\text{infinity}}$ is not a standard operation that results in a finite numerical value.** In limit theory, as $n \to \infty$, $10^n \to \infty$. It doesn't converge to a specific, finite natural number.
+
+* **What if it's a "conceptual infinity"?** If you are saying $10^{\text{infinite number of digits of pi}}$ conceptually means shifting the decimal point all the way to the end of an infinite sequence of digits, then the result is still an infinite sequence of digits.
+    * Example: $\pi = 3.14159265...$
+    * If you "multiply by $10^{\text{all digits}}$", you'd get $314159265...$ (with no decimal point, implying it's after the last digit).
+    * **This number, $314159265...$ (with an infinite number of digits), is not a natural number.** A natural number, by definition, has a finite string of digits. This infinite string is precisely the real number $\pi$ (just scaled).
+
+The base 10 system allows for representing *any* natural number with a finite string of digits, and *any* real number with a potentially infinite string of digits. It does not provide a mechanism to convert an infinite string of digits into a finite natural number through multiplication by an infinite power of 10.
+
+### "Second in my argument the decimal point is the elevator and if we start from infinite building and we go down by the elevator (decimal point) until the floor of pi then as we go down by decimal point then we divide by 10 with each moving step of the elevator meaning we started from some infinite level point of digits arrangement ( meaning it do not have decimal point or have only zero in its decimal points)"
+
+Let's unpack this elevator analogy carefully:
+
+* **"Starting from some infinite level point of digits arrangement (meaning it do not have decimal point or have only zero in its decimal points)"**:
+    * You're envisioning a number like $...d_3 d_2 d_1 d_0$ (an infinite number of digits extending to the left). This is a concept sometimes used in p-adic numbers, but it's not how standard real numbers are represented.
+    * A natural number is $d_k d_{k-1} \dots d_1 d_0$. It has a *finite* number of digits.
+    * A real number $R$ can be written as $I.F$ where $I$ is the integer part (finite digits) and $F$ is the fractional part (potentially infinite digits).
+
+* **"If we go down by decimal point then we divide by 10 with each moving step of the elevator meaning we started from some infinite level point of digits arrangement"**:
+    * When you "move the decimal point left," you are *dividing* by powers of 10.
+    * If you start with an "infinite level point of digits arrangement" (which mathematically isn't a natural number, but let's humor the analogy for a moment), say $314159265...$ (meaning an infinite sequence of digits *before* a decimal point that doesn't exist).
+    * If you then introduce a decimal point and move it left:
+        * $314159265... \to 31415926.5...$ (divided by 10)
+        * $31415926.5... \to 3141592.65...$ (divided by 100)
+        * ...and so on.
+
+    * **The "floor of pi":** This process will eventually lead you to the form $3.14159265...$ (which is $\pi$).
+
+* **The Misconception:** The key is that you are *starting* with an entity ($314159265...$ without a decimal point) that *you are treating as if it were a single natural number*. But it isn't. It's an infinite sequence of digits.
+    * The "elevator" operation (dividing by powers of 10) takes this infinite sequence of digits and places a decimal point within it.
+    * The result ($\pi$) is still an infinite sequence of digits. It has not been mapped to a *finite natural number*.
+
+### Why this doesn't imply countability of real numbers or uncountability of natural numbers:
+
+Your argument essentially posits that if you start with an infinite sequence of digits (which you are *calling* a natural number, but which is not a natural number in the standard definition), you can then manipulate it to get a real number. This doesn't establish a bijection between standard natural numbers and real numbers.
+
+* **Natural numbers are finite:** Every natural number has a definite, finite length when written in base 10. There is no natural number whose digit representation is infinite.
+* **Real numbers can be infinite:** Irrational numbers *require* an infinite number of digits to represent them exactly.
+
+The core of Cantor's argument is that even if you try to list all the real numbers, there's always one you missed. This is because the "space" of infinite decimal sequences is so much larger than the "space" of finite integer sequences.
+
+You're taking an infinite string of digits (which *is* a real number, just without a decimal point) and "normalizing" it by moving the decimal point to get other real numbers. This doesn't mean those real numbers map to *finite* natural numbers. They map to other infinite strings of digits.
+
+So, while your elevator analogy is interesting for visualizing operations on digits, it doesn't change the fundamental mathematical definitions that distinguish finite natural numbers from potentially infinite real numbers, and thus uphold the uncountability of real numbers versus the countability of natural numbers.

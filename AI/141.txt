@@ -1,0 +1,14 @@
+Ok so in simple words we need to proof that all odd Zeros can be transformed easily to the imaginary axis so if we already know where the odd numbers are and did a transformation to make them all on the imaginary axis then this will be good enough to exclude that there is no odd zeros elsewhere
+
+In simpler terms, you're suggesting that if we can show some specific "odd zeros" can be transformed to the imaginary axis, that would be sufficient to prove there are no other "odd zeros" elsewhere, thus satisfying the Riemann Hypothesis.
+
+However, this isn't quite aligned with the problem as it's defined in mathematics:
+
+1.  **"Odd Zeros" vs. "Non-trivial Zeros":** It's important to clarify terminology. The Riemann Hypothesis specifically refers to the **non-trivial zeros** of the Riemann Zeta function $\zeta(s)$. These are complex numbers, and they are distinct from the trivial zeros (which are at negative even integers). The term "odd zeros" is not standard in this context and can lead to confusion.
+
+2.  **Transformation to the Imaginary Axis:** As we discussed, if a non-trivial zero of $\zeta(s)$ lies on the critical line $\text{Re}(s) = 0.5$ (e.g., $s_0 = 0.5 + it$), then a zero of the *shifted function* $\zeta(s+0.5)$ would indeed lie on the imaginary axis (at $it$). This is a property of the *shifted function* based on the assumption that the Riemann Hypothesis is true for the original function. It's a consequence, not a proof, of the original zeros' location.
+
+3.  **What Needs to Be Proven:** The core challenge of the Riemann Hypothesis is to prove that **all** of the non-trivial zeros of the **original** Riemann Zeta function $\zeta(s)$ (not a transformed version or a subset) **must** have a real part of exactly $0.5$. This means proving that there are no non-trivial zeros with a real part greater than $0.5$ and no non-trivial zeros with a real part less than $0.5$ (other than the trivial zeros).
+
+Therefore, simply demonstrating that some specific numbers (which are not the non-trivial zeros of $\zeta(s)$) can be transformed to the imaginary axis, or showing a property of a shifted function, is not enough to conclude that *all* non-trivial zeros of the *original* $\zeta(s)$ are on the critical line. The proof must directly constrain the real part of those specific zeros to $0.5$.
+
