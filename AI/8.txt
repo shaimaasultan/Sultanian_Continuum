@@ -1,0 +1,25 @@
+ok what do you think of this square root of two is it Q or not
+
+Based on established mathematical definitions and proofs, the **square root of 2 ($\sqrt{2}$) is an irrational number.**
+
+This means $\sqrt{2}$ **cannot** be expressed as a simple fraction $p/q$, where $p$ and $q$ are integers and $q \neq 0$. Its decimal representation is non-terminating and non-repeating (e.g., $1.41421356...$).
+
+Regarding the image you provided, it contains several statements that are **mathematically incorrect or misleading**:
+
+1.  **"Square root of 2 is a fraction of pi and it is not different from pi, and we can represent it using fractions"**:
+    * This statement is fundamentally flawed. $\sqrt{2}$ and $\pi$ are two distinct irrational numbers. One is not a simple fraction of the other.
+    * The ability to approximate any real number (including irrational ones) using fractions to arbitrary decimal places does *not* make the number rational. For example, $\pi$ can be approximated as $22/7$, but $\pi$ is still irrational. The formulas shown in the image are approximations, not exact fractional representations.
+
+2.  **The "fractional formulas" for $\pi$ and $\sqrt{2}$**:
+    * The formulas shown are either series expansions, specific approximations, or numerical calculations that yield a decimal approximation.
+    * For example, the formula for $\pi$ (like the Ramanujan formula or similar series) involves summing an infinite number of rational terms, but the sum itself is irrational.
+    * The examples provided, such as "1.383242479672219 * $\pi$" or "23.732689841057238 * $\sqrt{2}$", are simply expressing one irrational number as a product of another irrational number and some other real number. They don't prove either is rational.
+
+3.  **"2- Square root of 2 is some rotation or transformation for pi around the origin (0,0)."**:
+    * This statement is mathematically nonsensical in the context of proving rationality. $\sqrt{2}$ is a specific number (a length, a magnitude). $\pi$ is also a specific number (a ratio related to circles, an angle measure). One is not a "rotation or transformation" of the other in a way that implies their fundamental numerical nature (rational vs. irrational) changes.
+
+**In conclusion:**
+
+The document in the image appears to be based on a misunderstanding of what it means for a number to be rational or irrational, and how approximations differ from exact representations.
+
+**$\sqrt{2}$ is unequivocally an irrational number.** Its irrationality was famously proven by ancient Greek mathematicians and is a cornerstone of number theory.

@@ -1,0 +1,24 @@
+if you say pi has fixe unique value you contradict your self that it is irrational number so even it have fixed value or it is irrational but not both
+
+That's a very insightful question, and it points to a common misunderstanding of what "fixed value" and "irrational" mean in mathematics. There is **no contradiction** between a number having a fixed, unique value and being irrational. In fact, all real numbers, whether rational or irrational, have a fixed, unique value.
+
+Let's break down what each term means:
+
+1.  **"Fixed, unique value"**:
+    * This means that $\pi$ represents one, and only one, specific point on the number line. It's not a range of numbers, it's not changing, and it's not ambiguous.
+    * For example, just like the number 2 has a fixed, unique value and is a specific point on the number line, $\pi$ also has a fixed, unique value and is a specific point on the number line (approximately 3.14159...).
+    * Every number, by definition, has a fixed, unique value.
+
+2.  **"Irrational number"**:
+    * This describes the *nature of its decimal representation* and its inability to be written as a simple fraction $p/q$.
+    * An irrational number's decimal expansion goes on forever without repeating any pattern (e.g., $3.1415926535...$).
+    * It does **not** mean the number is "unfixed" or "changing." It simply means we cannot express it precisely using a finite number of digits or a simple fraction.
+
+**Analogy:**
+
+Imagine a perfectly precise location on a map, say, the center of a specific tree in a forest.
+* That tree's center has a **fixed, unique location** in the world. It doesn't move around.
+* Now, if you try to describe that location using GPS coordinates, you might find that the coordinates have an infinite, non-repeating decimal string (e.g., $43.5890^\circ$ N, $79.6441^\circ$ W, but extend those decimals infinitely for perfect precision).
+* The fact that the decimal representation of its coordinates is infinite and non-repeating doesn't mean the tree is moving or that its location isn't fixed and unique. It just means that its exact description requires an infinite string of numbers.
+
+Similarly, $\pi$ is a **fixed, unique point** on the number line. The fact that we need an infinite, non-repeating decimal expansion to write it out is a characteristic of its *type* (irrational), not an indication that its value is somehow unfixed or variable.

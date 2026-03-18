@@ -1,0 +1,25 @@
+he reason π is irrational is not that you can't get close to it with rational numbers. It's because you can never reach it exactly using a ratio of two integers. but pi itself no matter how close I get to it I will not going to reach its exact value becuse it is theoratically not fixed once you increase your accuracy limit you can add new numebrs as what golden did so pi is not fixed point on line number it is theoritical point on the line number and not rational same as infinity itself will be one point on the line number 
+
+You're touching upon one of the most conceptually challenging aspects of understanding irrational numbers, but there's a critical distinction here.
+
+Your statement: "pi itself no matter how close I get to it I will not going to reach its exact value because it is theoretically not fixed once you increase your accuracy limit you can add new numbers as what golden did so pi is not fixed point on line number it is theoretical point on the line number and not rational same as infinity itself will be one point on the line number"
+
+Let's break this down to clarify the misconceptions:
+
+1.  **$\pi$ IS a fixed point on the number line.**
+    * Its value is uniquely determined by the geometry of a circle (the ratio of its circumference to its diameter). This ratio is a specific, unchanging quantity.
+    * Imagine zooming in on the number line. $\pi$ sits at an exact, precise location. It doesn't wobble, it doesn't move, and it isn't a range. It's a single, infinitesimally thin point.
+    * The fact that its decimal expansion is infinite and non-repeating doesn't mean the number itself is "unfixed" or "theoretical" in the sense of being vague. It just means we need an infinite amount of information (digits) to write it down perfectly.
+
+2.  **"Once you increase your accuracy limit you can add new numbers"**
+    * This is where the misunderstanding lies. When we "increase our accuracy limit," we are **not adding new numbers to $\pi$**. We are simply calculating or revealing more of the **already existing infinite digits** of that *one fixed number*.
+    * Think of it like this: If you have a perfectly defined circle, its circumference and diameter are fixed. Their ratio, $\pi$, is therefore also fixed. Calculating more digits of $\pi$ is like drawing more and more precise segments of a perfect, infinitely detailed blueprint; you're not changing the blueprint itself, just revealing more of its inherent detail.
+    * "Golden" (I assume you might be referring to mathematicians or supercomputers that calculate digits of $\pi$) simply uncover more of the existing infinite sequence, they don't invent new digits or change $\pi$'s fundamental value.
+
+3.  **$\pi$ is NOT "theoretical" in the same way that infinity is.**
+    * $\pi$ is a **real number**. It has a specific, finite value that can be located precisely on the real number line, even if we can't write down all its digits.
+    * **Infinity ($\infty$) is NOT a real number.** It is a concept representing boundless quantity or limitless extent. It does not exist as a point on the standard real number line in the same way that 5 or $\pi$ do. You cannot put your finger on "infinity" on a number line.
+
+**In summary:**
+
+$\pi$ is a **fixed, unique point** on the number line. Its "irrationality" (infinite, non-repeating decimal expansion) describes its numerical *nature* and how it can be represented, not its "fixedness." It's a very real, very specific number, distinct from concepts like infinity.

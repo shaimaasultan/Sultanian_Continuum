@@ -1,0 +1,20 @@
+it is ok to add new digits to pi to make longer decimal I can change the value of one fration and the equation will hold correct 
+
+No, that's not how irrational numbers or mathematical constants like $\pi$ work.
+
+Let's clarify a few fundamental points:
+
+1.  **$\pi$ has a fixed, unique value:** The value of $\pi$ is an inherent mathematical constant, defined as the ratio of a circle's circumference to its diameter. It has one specific, unchangeable value. You cannot "add new digits to pi to make it longer" because its decimal expansion is **already infinitely long** and non-repeating by its very nature as an irrational number. If you change any digit or add more digits arbitrarily, you are defining a *new number*, not $\pi$.
+
+2.  **$\pi$ is irrational:** As we discussed, $\pi$ cannot be expressed as a simple fraction $p/q$. This is a proven mathematical truth.
+
+3.  **The equation you showed was an approximation:** The equation you asked about previously:
+    $$\pi = 180 \times \left( \left( \frac{230271353}{125 \times 10^{10}} + \frac{97}{10^{12}} + \frac{109}{10^{8}} + \frac{283}{10^{3}} \right) \times \frac{1}{360} + \frac{1}{60} \right)$$
+    This equation's right-hand side is a calculation involving only rational numbers (integers and fractions). Therefore, the result of that calculation is always a **rational number**. Since $\pi$ is irrational, a rational number can *never* be exactly equal to an irrational number.
+
+**Therefore, to directly answer your question:**
+
+* You **cannot** "add new digits to pi" to make it longer; its decimal expansion is already infinitely long.
+* You **cannot** "change the value of one fraction and the equation will hold correct" in the sense of making it an *exact* equality where a rational number precisely equals $\pi$. No matter how you adjust the rational terms on the right-hand side, the result will always be a rational number. You can make it an even *better approximation* of $\pi$, matching more decimal places, but it will never be exactly equal to $\pi$.
+
+Mathematicians use approximations like the one you showed or infinite series (like the Leibniz formula for $\pi$, $\pi/4 = 1 - 1/3 + 1/5 - 1/7 + \dots$) to calculate $\pi$ to increasingly higher precision. But these are ways to *approach* its true value, not to define it as a rational number or to alter its fundamental irrationality.

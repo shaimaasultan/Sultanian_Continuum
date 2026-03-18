@@ -1,0 +1,14 @@
+and what is the idenetiy function between Z and R
+
+The identity function between the set of **Integers (Z)** and the set of **Real Numbers (R)** is:
+
+**Function:** `f(x) = x`
+
+Here's how it works:
+
+*   **Domain:** The domain of this function is the set of **Integers (Z)**. This includes all whole numbers, both positive and negative, and zero: `{..., -3, -2, -1, 0, 1, 2, 3,...}`.
+*   **Co-domain:** The co-domain is the set of **Real Numbers (R)**. This is the larger set that includes all rational and irrational numbers.
+*   **Function Rule:** The rule `f(x) = x` means that for every input `x` from the domain, the output is `x` itself.
+*   **Range:** When you apply `f(x) = x` to every integer in the domain, the outputs will be exactly those same integers. Therefore, the **range** of this function is also the set of **Integers (Z)**.
+
+This function is a **one-to-one mapping** because each distinct integer input maps to a distinct integer output.[1] Since every integer is inherently a real number, the range (Z) is a subset of the co-domain (R).[2, 3, 4, 5, 6]

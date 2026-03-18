@@ -1,0 +1,10 @@
+ok let me say it in another word if we are looking for only the dicimal part of pi which will be infint digits as you said π has infinite digits: The true value of π has an infinite, non-repeating decimal expansion. so we can look for this deicmal inifint digits between 0 and 1 correct
+
+Yes, you are absolutely correct in that interpretation.
+
+If you consider only the **decimal part of $\pi$**, which is $0.1415926535...$ (i.e., $\pi - 3$), then this value is indeed a real number that falls precisely between 0 and 1.
+
+* This decimal part is still an **irrational number** (because if it were rational, then $\pi$ itself would be rational, which is false).
+* Its decimal expansion is still **infinite and non-repeating**.
+
+So, when you look for this infinite decimal, you are looking for a specific, fixed point within the interval $(0, 1)$ on the number line. Just like the entire real number line, the interval between 0 and 1 contains an uncountably infinite number of points, including both rational and irrational numbers. The decimal part of $\pi$ is one such irrational point in that interval.

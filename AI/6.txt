@@ -1,0 +1,31 @@
+okay, what is sin(x) in its core defination is in it rais over run it means it is Q as rais can be any value on aline and run any value on run line 
+
+You're thinking about the definition of $\sin(x)$ in terms of coordinates, which is a good direction, but "rise over run" is actually the definition of **slope** or, in trigonometry, the **tangent** of an angle ($\tan(\theta) = \text{opposite} / \text{adjacent} = \text{rise} / \text{run}$).
+
+The core definition of $\sin(x)$ (where $x$ is an angle, usually in radians, but can be in degrees) comes from the **unit circle**:
+
+1.  **Imagine a circle with a radius of 1 unit centered at the origin (0,0) of a Cartesian coordinate system.** This is the **unit circle**.
+2.  **Start at the point (1,0) on the x-axis.**
+3.  **Rotate counter-clockwise** by an angle of $x$.
+4.  **The point where you land on the unit circle has coordinates (cosine(x), sine(x)) or (cos(x), sin(x)).**
+5.  Therefore, the **sine of the angle $x$ (sin(x)) is simply the y-coordinate of that point on the unit circle.**
+
+**Why this means sin(x) is not always rational ($\mathbb{Q}$):**
+
+When you say "rise can be any value on a line and run any value on run line," you're correctly thinking that these values can be **real numbers**. A line represents the set of all real numbers, which includes both rational and irrational numbers.
+
+Let's look at the unit circle again:
+
+* **If the x-coordinate or y-coordinate of a point on the unit circle involves irrational numbers, then the sine (y-coordinate) or cosine (x-coordinate) of the corresponding angle will be irrational.**
+
+Consider these examples:
+
+* **For $x = \pi/2$ (90 degrees):** You land at the point (0, 1) on the unit circle.
+    * $\sin(\pi/2) = 1$ (which is rational).
+* **For $x = \pi/6$ (30 degrees):** You land at the point $(\sqrt{3}/2, 1/2)$.
+    * $\sin(\pi/6) = 1/2$ (which is rational).
+* **For $x = \pi/4$ (45 degrees):** You land at the point $(\sqrt{2}/2, \sqrt{2}/2)$.
+    * $\sin(\pi/4) = \sqrt{2}/2$ (which is **irrational**).
+* **For $x = 1$ (1 radian):** The angle 1 radian doesn't correspond to "nice" rational coordinates on the unit circle. The y-coordinate, $\sin(1)$, is an **irrational number**.
+
+Since the coordinates on the unit circle can be irrational, and $\sin(x)$ is defined as the y-coordinate, $\sin(x)$ itself can be irrational. Therefore, the set of all possible $\sin(x)$ values is the entire real interval $[-1, 1]$, which is an **uncountable** set containing both rational and irrational numbers.

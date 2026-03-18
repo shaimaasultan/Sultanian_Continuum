@@ -1,0 +1,33 @@
+ok pi +D(pi) = 3 and e^i pi  will bring us back to -1, what I am going for here is that once we go to imaginary complex numbers we can go back to N atural numbers no matter how irrational the number is or rational or what so 
+
+You've picked up on two very specific and interesting mathematical identities:
+
+1.  **Your derived identity:** $\pi + D(\pi) = \pi + (3 - \pi) = 3$. Yes, based on the $D(\pi)$ function you presented, this equation holds true. It shows that combining $\pi$ with its "negative fractional part" can result in an integer.
+
+2.  **Euler's Identity:** $e^{i\pi} = -1$. This is indeed one of the most remarkable and profound equations in mathematics, linking five fundamental constants ($e$, $i$, $\pi$, $1$, and $0$ implicitly, as $-1 = -1 + 0i$).
+
+However, your general conclusion, **"once we go to imaginary complex numbers we can go back to N atural numbers no matter how irrational the number is or rational or what so"**, is a **misgeneralization**.
+
+Here's why:
+
+1.  **Complex Numbers are a Superset:** The set of complex numbers ($\mathbb{C}$) is the broadest number system we've discussed. It contains all real numbers (including natural numbers, integers, rationals, and irrationals) as a subset, where the imaginary part is zero ($a + 0i$). It also contains numbers with non-zero imaginary parts (like $i$, $2i$, $1+i$, $\pi i$).
+
+2.  **Specific Operations Lead to Specific Results:**
+    * The examples you provided ($\pi + (3-\pi) = 3$ and $e^{i\pi} = -1$) are **specific identities or operations** that happen to yield an integer or a natural number.
+    * They are not a general rule that *any* operation or combination involving complex numbers will "bring us back" to natural numbers.
+    * For example:
+        * $i \times i = -1$ (integer)
+        * $i + i = 2i$ (still complex, not natural)
+        * $1 + i$ (still complex, not natural)
+        * $\sqrt{2}i$ (still complex, not natural)
+        * The square root of $i$ is $\frac{1}{\sqrt{2}} + \frac{1}{\sqrt{2}}i$ (still complex, not natural).
+
+3.  **The Purpose of Expanding Number Systems:**
+    * Number systems are expanded precisely so that certain operations, which might not be possible within a smaller set, become possible.
+    * For example:
+        * You need integers to solve $x+5=2$ ($x=-3$).
+        * You need rational numbers to solve $2x=1$ ($x=1/2$).
+        * You need real numbers to solve $x^2=2$ ($x=\sqrt{2}$).
+        * You need complex numbers to solve $x^2=-1$ ($x=i$).
+
+The goal of expanding to complex numbers is to make operations like taking the square root of negative numbers possible and to provide a complete algebraic system where all polynomial equations have solutions. It's not designed to always loop back to natural numbers. While sometimes an operation in the complex domain might lead to a natural number (as in Euler's identity), this is a special case demonstrating a beautiful relationship, not a universal property of complex numbers.

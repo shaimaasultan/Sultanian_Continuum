@@ -1,0 +1,56 @@
+ok if the decimal part of pi can be calculated by this D(pi) function why we just not call irrational numbers as complex numbers 
+
+That's a very interesting equation you've presented! Let's analyze it first, and then address your question about irrational and complex numbers.
+
+The equation is:
+$D(\pi) = i \times 4 \times \ln\left(\frac{i}{\sqrt{2}} + \frac{1}{\sqrt{2}}\right) + 3$
+
+Let's simplify the term inside the natural logarithm:
+$\frac{1}{\sqrt{2}} + \frac{i}{\sqrt{2}} = \frac{1+i}{\sqrt{2}}$
+
+This is a complex number. We can express it in polar form $re^{i\theta}$.
+The magnitude $r = \left| \frac{1+i}{\sqrt{2}} \right| = \sqrt{\left(\frac{1}{\sqrt{2}}\right)^2 + \left(\frac{1}{\sqrt{2}}\right)^2} = \sqrt{\frac{1}{2} + \frac{1}{2}} = \sqrt{1} = 1$.
+The argument $\theta = \arctan\left(\frac{1/\sqrt{2}}{1/\sqrt{2}}\right) = \arctan(1) = \frac{\pi}{4}$ (since it's in the first quadrant).
+
+So, $\frac{1+i}{\sqrt{2}} = 1 \cdot e^{i\pi/4} = e^{i\pi/4}$.
+
+Now substitute this back into the logarithm. For complex numbers, the natural logarithm $\ln(z)$ is defined as $\ln|z| + i\arg(z)$. Using the principal value (where the argument is in $(-\pi, \pi]$):
+$\ln\left(e^{i\pi/4}\right) = \ln(1) + i\left(\frac{\pi}{4}\right) = 0 + i\frac{\pi}{4} = i\frac{\pi}{4}$.
+
+Now substitute this back into the full equation for $D(\pi)$:
+$D(\pi) = i \times 4 \times \left(i\frac{\pi}{4}\right) + 3$
+$D(\pi) = i^2 \times 4 \times \frac{\pi}{4} + 3$
+Since $i^2 = -1$:
+$D(\pi) = -1 \times \pi + 3$
+$D(\pi) = 3 - \pi$
+
+So, this function $D(\pi)$ actually calculates $3 - \pi$, which is approximately $3 - 3.14159... = -0.14159...$.
+This is the **negative of the decimal part of $\pi$**, not the decimal part itself.
+
+---
+
+Now, let's address your question: **"why we just not call irrational numbers as complex numbers"**
+
+This question comes from a misunderstanding of how number sets are defined and relate to each other.
+
+Here's the hierarchy of the number systems:
+
+1.  **Natural Numbers ($\mathbb{N}$):** $\{1, 2, 3, ...\}$ (sometimes includes 0)
+2.  **Integers ($\mathbb{Z}$):** $\{..., -2, -1, 0, 1, 2, ...\}$ (includes natural numbers and their negatives, and zero)
+3.  **Rational Numbers ($\mathbb{Q}$):** Numbers that can be expressed as a fraction $p/q$ where $p, q$ are integers and $q \neq 0$. (Includes all integers).
+4.  **Irrational Numbers ($\mathbb{I}$):** Numbers that cannot be expressed as a fraction $p/q$. Their decimal representation is non-terminating and non-repeating (e.g., $\sqrt{2}, \pi, e$).
+5.  **Real Numbers ($\mathbb{R}$):** The union of rational and irrational numbers ($\mathbb{R} = \mathbb{Q} \cup \mathbb{I}$). These are all the numbers that can be plotted on a continuous number line.
+6.  **Complex Numbers ($\mathbb{C}$):** Numbers of the form $a + bi$, where $a$ and $b$ are **real numbers**, and $i$ is the imaginary unit ($\sqrt{-1}$).
+
+**Key point:** Every real number $x$ can be written in the form $x + 0i$.
+* For example, $\pi$ can be written as $\pi + 0i$.
+* The number 5 can be written as $5 + 0i$.
+* The number $\sqrt{2}$ can be written as $\sqrt{2} + 0i$.
+
+This means that the set of **Real Numbers ($\mathbb{R}$) is a subset of the Complex Numbers ($\mathbb{C}$)**.
+
+Therefore:
+* An irrational number (like $\pi$) is a **Real Number**.
+* And since every real number is a complex number (with an imaginary part of zero), **every irrational number *is* already a complex number** (specifically, a complex number where the imaginary part is zero).
+
+So, we don't "call" irrational numbers complex numbers as a separate category, because they already *are* complex numbers. We use the term "irrational" to describe a specific characteristic of their numerical nature (their inability to be expressed as a ratio of integers) within the set of real numbers.

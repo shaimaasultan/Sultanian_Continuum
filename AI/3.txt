@@ -1,0 +1,14 @@
+in countable and uncountable we only care about the value not the repreenstation correct
+
+That's an excellent clarifying question!
+
+You are absolutely correct. When we talk about **countable** and **uncountable** sets, we are referring to the **intrinsic values** of the numbers (or elements) within the set, not their representation.
+
+The representation (like decimal, binary, fractions, scientific notation, or even expressions involving $\sin$ or $\cos$) is just a way to write down or describe the *value*. The concept of countability is about whether you can create a one-to-one correspondence (a bijection) between the elements of the set in question and the natural numbers ($\{1, 2, 3, ...\}$).
+
+Here's why the distinction is important:
+
+* **The value is what matters:** A number like "one half" is the same value whether you write it as $1/2$, $0.5$, $2^{-1}$, or $\sin(\pi/6)$. If it's a rational number, it's counted as one element in the set of rational numbers, regardless of its representation.
+* **Representation doesn't change cardinality:** The fact that real numbers have non-repeating, non-terminating decimal representations is a *tool* used in proofs like Cantor's diagonal argument to *show* that a bijection cannot exist. It's not that the representation *makes* the set uncountable; rather, the nature of these values (and their infinite, non-repeating decimals) reveals their uncountability.
+
+So, yes, it's about the **value** or the **elements themselves**, and whether a one-to-one mapping to the natural numbers is possible.

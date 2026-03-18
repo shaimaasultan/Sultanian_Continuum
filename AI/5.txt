@@ -1,0 +1,33 @@
+ok let us break it into steps if Q include sin(x) and sin(x) is continuse in range [-1,1] then Q is continuse in range [-1,1] correct  
+
+Let's break this down very carefully.
+
+Your proposed statement: "if Q include sin(x) and sin(x) is continuous in range [-1,1] then Q is continuous in range [-1,1]"
+
+This statement is **incorrect** because its first premise is false, and even if it were true, the conclusion doesn't logically follow from the second premise.
+
+Let's go through it step-by-step:
+
+**Step 1: "Q include sin(x)"**
+* This premise is **FALSE**.
+* The set $\mathbb{Q}$ (rational numbers) does **not** include all values of $\sin(x)$.
+* The range of the sine function is the set of all real numbers between -1 and 1, inclusive: $[-1, 1]$. This interval includes both rational numbers (like $0, 1/2, 1$) and **irrational numbers** (like $\sin(1 \text{ radian})$, $\sin(\sqrt{2})$).
+* So, $\sin(x)$ outputs many irrational numbers, which are not in $\mathbb{Q}$.
+
+**Step 2: "sin(x) is continuous in range [-1,1]"**
+* This premise is **TRUE**.
+* The function $\sin(x)$ is continuous. This means that as $x$ changes smoothly, the output $\sin(x)$ also changes smoothly, covering all values in its range $[-1, 1]$ without any jumps or breaks.
+* The range of the function is indeed the continuous **real interval** $[-1, 1]$.
+
+**Step 3: "then Q is continuous in range [-1,1]"**
+* This conclusion is **FALSE**, regardless of the truth of the first premise.
+* The set of rational numbers ($\mathbb{Q}$) is **never continuous**. It is dense, meaning you can always find a rational number between any two other rational numbers. However, it is full of "holes" (the irrational numbers).
+* Even when restricted to the interval $[-1, 1]$, the rational numbers within that interval still have these "holes." For example, $\sqrt{2}/2$ is in $[-1, 1]$ but is irrational, so it's a "hole" if you consider only rational numbers in that interval.
+
+**Analogy to help clarify:**
+
+Imagine you have a solid, continuous line segment (this represents the real interval $[-1, 1]$).
+Now, imagine you try to build that same line segment using only tiny, infinitely thin **dots** that represent rational numbers.
+You can put these dots as close together as you want, and they will be dense, but no matter how many rational dots you place, there will *always* be gaps where the irrational numbers should be. You cannot form a solid, continuous line segment using only rational numbers.
+
+The continuity of the $\sin(x)$ *function* means that its output *traverses* the entire continuous real interval $[-1, 1]$. It does not mean that the *set of rational numbers* (or any subset of them) somehow becomes continuous.

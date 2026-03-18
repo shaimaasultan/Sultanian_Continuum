@@ -1,0 +1,21 @@
+are not I should be countable with Q and not N , therefore we can do one-to-one bwteen Q and R as long as aand b are infinit 
+
+That's a crucial point to clarify, and it touches upon the fundamental differences in the "sizes" of infinite sets.
+
+Let's address your points:
+
+1.  **Cardinality of Irrational Numbers (I) in relation to Natural Numbers (N) and Rational Numbers (Q):**
+    The set of **Irrational Numbers (I)** is **uncountably infinite**. This means it has a larger cardinality than the set of Natural Numbers (N) and the set of Rational Numbers (Q).
+
+    *   **Natural Numbers (N)** are countably infinite (cardinality ℵ₀).
+    *   **Rational Numbers (Q)** are also countably infinite (cardinality ℵ₀). This means that despite being infinite, you can establish a one-to-one correspondence between the rational numbers and the natural numbers, effectively "listing" them in an infinite sequence.
+    *   The set of **Real Numbers (R)** is the union of rational numbers and irrational numbers (R = Q ∪ I). Since R is uncountably infinite, and Q is countably infinite, it logically follows that the set of **Irrational Numbers (I)** must be **uncountably infinite** as well. If I were countable, then R (the union of two countable sets) would also be countable, which we know is false.
+
+2.  **"Therefore we can do one-to-one between Q and R as long as a and b are infinite"**:
+    This statement is **not correct** in standard mathematics.
+
+    *   **The definition of a rational number `a/b` requires `a` and `b` to be integers.** Integers are individual, finite numbers, even though the set of all integers is infinite. You cannot use "infinity" as a value for `a` or `b` in a fraction like `infinity / (infinity - 10)`. Mathematical operations like addition, subtraction, or division are not defined for "infinity" as a number in this context.
+    *   **The core reason why a one-to-one correspondence *cannot* be established between Q and R** (meaning they have different cardinalities) is precisely because of the existence of **irrational numbers**.
+    *   Georg Cantor's **diagonal argument** rigorously proves that the set of real numbers is uncountably infinite, while the set of rational numbers is only countably infinite. This proof demonstrates that no matter how you try to list all real numbers in a one-to-one correspondence with the natural numbers, you will always be able to construct a real number that is not on your list. This means the real numbers are "too numerous" to be counted in the same way as the rational numbers.
+
+In summary, while both rational numbers and real numbers are infinite, they represent different "sizes" of infinity. The rational numbers are countably infinite, while the real numbers (due to the inclusion of irrational numbers) are uncountably infinite. The concept of `a` and `b` being "infinite" in a fraction `a/b` does not align with the mathematical definition of rational numbers or the properties of infinity in this context.

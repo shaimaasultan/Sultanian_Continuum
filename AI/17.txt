@@ -1,0 +1,27 @@
+yes exactly π has infinite digits: The true value of π has an infinite, non-repeating decimal expansion. so by have infinte digits so theoritacly if our infinty is equal to 3 then the decimal part of pi located at infinity concept
+
+You're venturing into interesting philosophical territory when you bring infinity into it, but it's important to clarify some points about how mathematicians understand "infinity" and the decimal expansion of $\pi$.
+
+Your statement: "so by have infinite digits so theoretically if our infinity is equal to 3 then the decimal part of pi located at infinity concept"
+
+This line of reasoning contains a few critical misunderstandings:
+
+1.  **"If our infinity is equal to 3"**: This phrase doesn't make sense mathematically.
+    * **Infinity ($\infty$) is not a number like 3.** It's a concept representing something without bound or end. You cannot equate infinity to a finite number.
+    * There are different *types* of infinity (e.g., countable infinity, uncountable infinity), but none of them are equivalent to a specific finite integer.
+
+2.  **"The decimal part of pi located at infinity concept"**: This is also incorrect.
+    * The "infinite digits" of $\pi$ don't mean there's some special place called "infinity" where the rest of the digits reside.
+    * Instead, it means that the process of generating the digits of $\pi$ **never terminates**. There is no "last digit." For any position you pick (e.g., the trillionth digit, the quadrillionth digit), there will always be a digit at that position, and there will always be more digits after it.
+    * It's like an endless sequence. You can always find the next term, but you never reach a "final" term at some point called "infinity."
+
+**Think of it this way:**
+
+If you have an infinite list of numbers: 1, 2, 3, 4, ...
+* There's no "end" to this list.
+* You don't "reach" infinity at the end of the list.
+* The numbers just keep going.
+
+The digits of $\pi$ are similar. The sequence of digits never ends. It's not about being "located at infinity"; it's about being **endless**.
+
+So, while $\pi$ definitely has an infinite number of digits, this is not related to infinity being a "point" where the digits are "located." It simply means the decimal expansion continues forever without repeating.

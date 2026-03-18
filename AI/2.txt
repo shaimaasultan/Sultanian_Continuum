@@ -1,0 +1,57 @@
+if R = I U Q and I = R - Q and Q = R-I  so Q = I as you can not fins any R that not in I and not in Q from where if Q is countable why it jump to uncountable if it is using base 10 system so any R representation can be converted to multiplication of 10 to power of something no matter how continuse the number you can even represent it by sin and cos  
+
+It seems there are a few misunderstandings in your statements regarding the sets $R$ (real numbers), $I$ (irrational numbers), and $Q$ (rational numbers). Let's clarify them step by step.
+
+First, let's establish the definitions of these sets:
+
+* **R (Real Numbers):** The set of all numbers that can be represented on a continuous number line. This includes rational and irrational numbers.
+* **Q (Rational Numbers):** Numbers that can be expressed as a fraction $p/q$, where $p$ and $q$ are integers and $q \neq 0$. Examples: $1/2, -3, 0.75, 4$.
+* **I (Irrational Numbers):** Numbers that cannot be expressed as a simple fraction $p/q$. Their decimal representations are non-repeating and non-terminating. Examples: $\sqrt{2}, \pi, e$.
+
+Now let's address your proposed relationships:
+
+1.  **"R = I U Q"**
+    This statement is **correct**. The set of real numbers is indeed the union of the set of irrational numbers and the set of rational numbers. These two sets are disjoint (a number cannot be both rational and irrational).
+
+2.  **"I = R - Q"**
+    This statement is also **correct**. The set of irrational numbers is what remains when you remove all rational numbers from the set of real numbers.
+
+3.  **"Q = R - I"**
+    This statement is likewise **correct**. The set of rational numbers is what remains when you remove all irrational numbers from the set of real numbers.
+
+4.  **"so Q = I as you can not find any R that not in I and not in Q"**
+    This is where the misunderstanding lies. While it's true that every real number is either rational or irrational (i.e., there's no real number that is *neither* in $Q$ *nor* in $I$), this *does not* imply that $Q = I$.
+
+    Think of it this way: If you have a set $A$ and a set $B$, and their union forms a larger set $C$ ($C = A \cup B$), and $A$ and $B$ are disjoint, then $A = C - B$ and $B = C - A$. This doesn't mean $A$ and $B$ are equal. For example, if $C$ is the set of all people, $A$ is the set of all men, and $B$ is the set of all women, then $C = A \cup B$, $A = C - B$, and $B = C - A$. But men are clearly not equal to women.
+
+    $Q$ and $I$ are fundamentally different sets. One is countable, and the other is uncountable.
+
+Now, let's address your questions about countability and base 10 representation:
+
+**"from where if Q is countable why it jump to uncountable if it is using base 10 system"**
+
+The countability of $Q$ (rational numbers) and the uncountability of $R$ (real numbers) are crucial concepts in set theory.
+
+* **Q is Countable:** This means that you can create a one-to-one correspondence between the rational numbers and the natural numbers. While it's not as straightforward as listing them in order, a common way to demonstrate this is by using a zigzag path through a grid of $p/q$ values, ensuring each unique rational number is eventually hit. This doesn't mean you can list them in ascending order, but that you can establish a systematic way to enumerate them.
+
+* **R is Uncountable:** This means that no such one-to-one correspondence can be established. This was famously proven by Georg Cantor using a technique called **Cantor's Diagonal Argument**.
+
+    Cantor's diagonal argument demonstrates that even if you try to list all real numbers between, say, 0 and 1 in their decimal representation, you can always construct a new real number that is not on your list. This means any attempt to create a one-to-one mapping between the natural numbers and the real numbers will always fail to include all real numbers.
+
+    The "jump to uncountable" doesn't happen *because* of the base 10 system; rather, the uncountability of real numbers is **revealed** by considering their decimal representations, particularly the existence of non-repeating, non-terminating decimals (irrational numbers).
+
+**"so any R representation can be converted to multiplication of 10 to power of something no matter how continuse the number you can even represent it by sin and cos"**
+
+This statement is also a bit mixed up.
+
+* **Decimal Representation (Base 10):** While every real number *can* be represented in base 10 (as a decimal), the key is that rational numbers have terminating or repeating decimal expansions (e.g., $1/2 = 0.5$, $1/3 = 0.333...$), while irrational numbers have non-terminating, non-repeating decimal expansions (e.g., $\pi = 3.14159265...$, $\sqrt{2} = 1.41421356...$). This difference in decimal representation is what allows for the distinction in countability.
+
+* **"multiplication of 10 to power of something"**: This sounds like you're referring to scientific notation, which is a way to write numbers, but it doesn't change their fundamental nature or their cardinality. A number like $1.23 \times 10^{-5}$ is still a rational number. A number like $\pi \times 10^2$ is still irrational.
+
+* **"you can even represent it by sin and cos"**: This refers to representing numbers using trigonometric functions, which is a different concept. For example, some real numbers can be expressed as values of $\sin(x)$ or $\cos(x)$ for certain $x$. However, this is a way of *defining* or *calculating* a number, not a statement about its set membership or countability. For instance, $\sin(\pi/2) = 1$ (rational), while $\sin(1)$ is irrational.
+
+**In summary:**
+
+* $Q$ and $I$ are distinct and disjoint sets that together form $R$.
+* $Q$ is countable because its elements can, in principle, be put into a one-to-one correspondence with the natural numbers.
+* $R$ (and therefore $I$) is uncountable because it contains infinitely many more numbers than can be enumerated, as demonstrated by Cantor's diagonal argument. The decimal representation simply provides the framework for understanding this difference in "infinity."

@@ -1,0 +1,46 @@
+ok, but if you took a and b both containus/real/irrational number you will get for sure countable Q, if you represent the irrational number using sintific notation then 10^-n = 1/10^n and visversa
+
+That's a very insightful and complex question, as it delves into the precise definitions of numbers and the nature of infinity. Let's break down your statement and the underlying concepts carefully.
+
+Your statement: "but if you took a and b both containus/real/irrational number you will get for sure countable Q, if you represent the irrational number using sintific notation then 10^-n = 1/10^n and visversa"
+
+There are a few critical points to clarify here:
+
+### 1. The Definition of Rational Numbers (Q)
+
+The set of **Rational Numbers (Q)** is *strictly defined* as numbers that can be expressed as a fraction `a/b`, where `a` and `b` are **integers**, and `b` is not zero.
+
+*   If `a` and `b` are "continuous/real/irrational numbers," then the result `a/b` is **not necessarily a rational number**, and the set generated would **not be Q**.
+
+    *   **Example 1 (a, b are real):** If `a = √2` (irrational) and `b = 1` (integer/real), then `a/b = √2/1 = √2`, which is an **irrational number**, not a rational one.
+    *   **Example 2 (a, b are irrational):** If `a = √18` and `b = √2`, then `a/b = √18 / √2 = √(18/2) = √9 = 3`. Here, you get an integer (which is rational).
+    *   **Example 3 (a, b are irrational):** If `a = π` and `b = √2`, then `a/b = π/√2`, which is an **irrational number**.
+
+    So, if `a` and `b` are allowed to be any real or irrational numbers, the set of numbers you generate (`a/b`) would be the set of **all real numbers (R)** (excluding zero), which is **uncountably infinite**, not countably infinite.
+
+### 2. "Uncountably Infinite" `a` and `b` in a Fraction
+
+The terms "uncountably infinite" refer to the **cardinality of a set**, not to individual numbers that can be used in arithmetic operations like `a` or `b` in a fraction.
+
+*   **Infinity is not a number** that you can use in standard arithmetic operations (like `infinity - 10`).
+*   For a number to be a fraction `a/b`, `a` and `b` must be **finite integers**.
+
+Therefore, the idea of `a` and `b` being "uncountably infinite" or `b` being "infinity - 10" is not mathematically valid in the context of defining rational numbers or performing arithmetic.
+
+### 3. Scientific Notation and Countability
+
+Representing an irrational number using scientific notation (e.g., `1.414... x 10^0` for `√2`) or any other decimal/fractional notation does **not** make it countable.
+
+*   Scientific notation is a way to *write* or *express* numbers, not to change their fundamental nature or their countability.
+*   Irrational numbers have non-repeating, non-terminating decimal expansions. This infinite, non-repeating nature is precisely why they cannot be systematically listed or "counted" like rational numbers.
+*   Cantor's diagonal argument proves that even numbers between 0 and 1 (which can be represented as decimals) are uncountable. This is because you can always construct a new real number that is not on any given list, regardless of how you represent them (decimal, binary, etc.).
+
+### Conclusion
+
+Your statement contains several misunderstandings regarding the definitions of rational numbers, the nature of infinity in arithmetic, and the concept of countability:
+
+*   The function `f(a,b) = a/b` only generates **rational numbers (Q)** if `a` and `b` are **integers**. If `a` and `b` are real or irrational, the result can be any real number, and the set of such results is **uncountably infinite (R)**.
+*   You cannot use "infinity" as a value for `a` or `b` in a fraction.
+*   Representing a number in scientific notation or any other form does not change its countability. Irrational numbers remain uncountably infinite regardless of their representation.
+
+The countability of rational numbers stems from the fact that integers (their numerators and denominators) are discrete and can be systematically listed, allowing for a one-to-one correspondence with the natural numbers. This is not possible for the set of all real numbers due to the existence of irrational numbers.

@@ -1,0 +1,5 @@
+is 1 and elemnt in this set {0.0 , 1.0, 2.0 ,3.0 ,...}
+
+Yes, **1 is an element in the set `{0.0, 1.0, 2.0, 3.0,...}`**.
+
+As we discussed, `1` is numerically equivalent to `1.0`. Since `1.0` is explicitly listed as an element in that set, `1` is also considered an element of that set.

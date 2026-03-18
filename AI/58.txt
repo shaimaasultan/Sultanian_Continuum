@@ -1,0 +1,30 @@
+but are not every interger is acctully a fraction 8/4 = 2 , 30/10 = 3 and so on, even in computer if you write it 8/4.0 it will equal 2.0 and not 2 so what is the discreat difination between 3.0 and 3 for example 
+
+That's a fantastic question that highlights a crucial distinction between pure mathematics and how numbers are handled in computing!
+
+In **pure mathematics**, there is **no discrete definition or difference in value** between `3` and `3.0`. They represent the exact same numerical quantity. The `.0` simply indicates that the number is being written with a decimal point, which is common when discussing real numbers, but it doesn't change the value of an integer.
+
+You're also correct that every integer *can* be expressed as a fraction. For example:
+*   `2` can be `8/4`, `2/1`, `10/5`, etc.
+*   `3` can be `30/10`, `3/1`, `6/2`, etc.
+This means that integers are a subset of **rational numbers** (numbers that can be expressed as a fraction `p/q` where `p` and `q` are integers and `q ≠ 0`).
+
+The "discrete definition" you're sensing primarily comes into play in **computer science and programming**, where `3` and `3.0` are often treated as different **data types**:
+
+1.  **Integer Type (`3`):**
+    *   In programming, `3` is typically stored as an **integer** data type.
+    *   Integers are stored precisely, without any decimal component.
+    *   When you perform division with two integers, like `8 / 4`, many programming languages will perform **integer division**, which truncates any decimal part, resulting in `2`.
+
+2.  **Floating-Point Type (`3.0`):**
+    *   In programming, `3.0` is typically stored as a **floating-point** data type (e.g., `float` or `double`).
+    *   Floating-point numbers are designed to represent real numbers, including those with fractional parts. They are stored in a way that approximates real numbers using binary (similar to scientific notation).
+    *   When you perform division where at least one operand is a floating-point number, like `8 / 4.0`, the operation will typically result in a **floating-point number**, which is `2.0`. This is because the system converts the integer `8` to a floating-point number before performing the division, and the result retains the floating-point type.
+
+**Key Differences in Computer Context:**
+
+*   **Storage:** Integers are stored exactly, while floating-point numbers are often stored as approximations (though `3.0` is exact in most common floating-point representations). This approximation can lead to tiny errors in very complex calculations.
+*   **Memory Usage:** Integer types often use less memory than floating-point types.
+*   **Arithmetic Behavior:** As seen with division, the data type influences how operations are performed and the type of the result.
+
+So, while `3` and `3.0` are mathematically identical in value, their "discrete definition" or distinction becomes relevant when you consider how they are represented and manipulated within a computational system. In pure mathematics, the `.0` is merely a stylistic choice or an emphasis that the number belongs to the set of real numbers, without altering its fundamental integer value.

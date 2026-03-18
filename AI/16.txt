@@ -1,0 +1,17 @@
+let us say I get very close to pi value up to 10 to the power of 256 decimal points can you say that this is the fixed value for x and it will not changed if I increased my accuracy 
+
+Yes, if you define a number $x$ to be the value of $\pi$ truncated or rounded to a specific number of decimal places, for example, $10^{-256}$ (which means 256 decimal places), then **that specific value of $x$ is fixed and will not change.**
+
+For instance, if you set $x = 3.14159265... \text{(up to 256 decimal places)}$, then $x$ is a specific rational number. That number itself is fixed.
+
+**However, this fixed value of $x$ is NOT the fixed value of $\pi$ itself.**
+
+Here's why:
+
+* **$x$ is an approximation:** The number $x$ (your $\pi$ value truncated to 256 decimal places) is a rational number. It is an approximation of the true, irrational value of $\pi$.
+* **$\pi$ has infinite digits:** The true value of $\pi$ has an infinite, non-repeating decimal expansion.
+* **Increasing accuracy reveals more of $\pi$:** If you increase your accuracy to, say, 257 decimal places or more, the value you get will be a *different* number than your $x$. It will be an even closer approximation of $\pi$, but it will differ from your 256-decimal-place $x$ at the 257th decimal place and beyond.
+
+So:
+* The number *you defined as $x$ (truncated to 256 decimal places)* is fixed.
+* The actual number **$\pi$** is also fixed, but its full decimal representation cannot be written down. When you increase accuracy, you are simply revealing more of the infinite digits of that single, fixed number $\pi$.

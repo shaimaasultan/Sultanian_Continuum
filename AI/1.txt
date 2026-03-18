@@ -1,0 +1,17 @@
+if I have set of infinit even number numbers {2,4,6,8,10,12,......} is this set cardinality is less than the cardinality of positive Natural numbers {1,2,3,4,5,6,7,8,9,10,11,.....} 
+
+No, the cardinality of the set of infinite even numbers is not less than the cardinality of the set of positive natural numbers. In fact, their cardinalities are equal.
+
+This might seem counterintuitive at first, as one set is a proper subset of the other. However, for infinite sets, cardinality is determined by whether a one-to-one correspondence (a bijection) can be established between the elements of the two sets.
+
+We can create such a correspondence:
+
+For every natural number $n$ in the set $\{1, 2, 3, 4, ...\}$, we can associate it with an even number $2n$ in the set $\{2, 4, 6, 8, ...\}$.
+
+* $1 \leftrightarrow 2$
+* $2 \leftrightarrow 4$
+* $3 \leftrightarrow 6$
+* $4 \leftrightarrow 8$
+* ... and so on.
+
+Since every natural number can be uniquely mapped to an even number, and every even number can be uniquely mapped back to a natural number, this demonstrates a bijection. Therefore, the cardinality of the set of even numbers is the same as the cardinality of the set of natural numbers, both being $\aleph_0$ (aleph-null), the cardinality of countably infinite sets.

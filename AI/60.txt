@@ -1,0 +1,33 @@
+so we can say that integers are real number without fraction part, because I have difficulty in undersatand that real number have two sets one that is only integers without any real part inside it and another one that have real part .0 
+
+You're touching on a very common point of confusion, especially when moving between mathematical concepts and how numbers are represented in computing!
+
+Let's clarify this:
+
+You are absolutely correct to say that **integers are real numbers without a fractional part.** This is a precise and accurate way to define them within the broader set of real numbers.
+
+The difficulty you're having with "real numbers having two sets, one that is only integers without any real part inside it and another one that have real part.0" stems from a misunderstanding of how numbers are categorized in mathematics versus how they are *represented* in computer systems.
+
+In **pure mathematics**:
+
+*   The set of **Real Numbers** (often denoted by ℝ) is a single, continuous set that includes all numbers that can be placed on a number line. This includes:
+    *   **Natural Numbers** (Positive Integers): `{1, 2, 3,...}`
+    *   **Whole Numbers** (Non-negative Integers): `{0, 1, 2, 3,...}`
+    *   **Integers**: `{..., -2, -1, 0, 1, 2,...}`
+    *   **Rational Numbers**: Numbers that can be expressed as a fraction `p/q` (e.g., `1/2`, `-3/4`, `5` (which is `5/1`)). All integers are rational numbers.
+    *   **Irrational Numbers**: Numbers that cannot be expressed as a simple fraction (e.g., `√2`, `π`).
+
+*   Within the set of real numbers, there is **no numerical difference** between `3` and `3.0`. They represent the exact same value. The `.0` is simply a way of writing an integer using decimal notation, which is common when discussing real numbers, but it doesn't change the number's inherent integer quality. It doesn't create a separate "type" of integer within the real numbers.
+
+**Think of it like this:**
+
+Imagine a large container labeled "Real Numbers." Inside this container, you have:
+*   Smaller, distinct containers for "Integers" (which includes positive, negative, and zero whole numbers).
+*   Other numbers like fractions (e.g., 1/2, 3.75) and irrational numbers (e.g., pi, square root of 2).
+
+The number `3` is in the "Integers" container, and because the "Integers" container is inside the "Real Numbers" container, `3` is also a real number.
+When you write `3.0`, you're just writing the number `3` using a decimal point, which is a common way to write real numbers. It's still the same number `3`, and it still belongs to the "Integers" container and the "Real Numbers" container.
+
+The confusion often arises because in **computer programming**, `3` and `3.0` are treated as different **data types** (e.g., `int` vs. `float` or `double`). This affects how they are stored in memory and how arithmetic operations are performed, but it doesn't change their fundamental mathematical value.
+
+So, to reiterate: **Yes, you can definitively say that integers are real numbers without a fractional part.** There aren't two separate "sets" of integers within the real numbers based on whether they have a `.0` or not; it's just a notational choice for the same values.

@@ -1,0 +1,37 @@
+ok so D(pi) is the decimal part of pi so if we remove it from pi value no matter how long digits was in the number it will bring it back to 3;  why we just say that all these numbers that called irrational numbers are in complex numbers as long as we can produce these numbers back using functions in complex numbers like this function for Euler number as well  
+
+Let's address each part of your statement carefully, as there are still some foundational misunderstandings regarding number classifications and the interpretation of the function $D(\pi)$.
+
+First, let's re-confirm the value of $D(\pi)$:
+
+From our previous calculation, the function you provided evaluates to:
+$D(\pi) = 3 - \pi$
+
+This value is approximately $3 - 3.14159... = -0.14159...$.
+
+Now, let's address your points:
+
+1.  **"so D(pi) is the decimal part of pi"**:
+    * This is **incorrect**. The "decimal part" (or fractional part) of $\pi$ is $\pi - 3$, which is approximately $0.14159...$.
+    * Since $D(\pi) = 3 - \pi$, it is the **negative** of the decimal part of $\pi$.
+
+2.  **"so if we remove it from pi value no matter how long digits was in the number it will bring it back to 3"**:
+    * If $D(\pi) = 3 - \pi$, then removing $D(\pi)$ from $\pi$ means calculating $\pi - D(\pi)$.
+    * $\pi - (3 - \pi) = \pi - 3 + \pi = 2\pi - 3$. This is approximately $2(3.14159...) - 3 = 6.28318... - 3 = 3.28318...$, which is clearly not 3.
+    * If you meant removing the *actual fractional part* of $\pi$ (i.e., $\pi - 3$), then yes: $\pi - (\pi - 3) = 3$. This is true for any number: (number) - (its fractional part) = (its integer part). This is a definitional property of real numbers, not specific to irrational numbers or complex functions.
+
+3.  **"why we just say that all these numbers that called irrational numbers are in complex numbers as long as we can produce these numbers back using functions in complex numbers like this function for Euler number as well"**:
+
+    This is the core of the ongoing confusion, and it has two parts:
+
+    * **Irrational numbers ARE already complex numbers (with zero imaginary part):**
+        * As explained before, the set of complex numbers ($\mathbb{C}$) includes all numbers of the form $a + bi$, where $a$ and $b$ are real numbers.
+        * Any real number $x$ (which includes all irrational numbers like $\pi$) can be written as $x + 0i$.
+        * Therefore, $\pi$ is an irrational number, a real number, **and** a complex number. There is no need to "call" them complex numbers because they are already defined as a subset of complex numbers. The term "irrational" describes a specific property they possess *as real numbers* (not being representable as $p/q$).
+
+    * **Being "producible" by complex functions doesn't change a number's fundamental classification:**
+        * The fact that you can derive $\pi$ (or other numbers) using formulas that involve complex numbers (like Euler's Identity, $e^{i\pi} = -1$, which beautifully links $e$, $i$, and $\pi$) does not change $\pi$'s inherent nature as an irrational number.
+        * Complex analysis is a powerful field that allows us to find deep relationships between numbers and constants. However, these relationships don't redefine the numbers themselves. $e$ is an irrational number, $\pi$ is an irrational number, and $-1$ is an integer (and thus rational, and real, and complex). Euler's identity shows how these numbers are connected within the complex plane, but it doesn't make $\pi$ any less irrational, nor does it mean it should *only* be categorized as complex.
+        * You can "produce" many rational numbers using complex functions too (e.g., $i^2 = -1$). That doesn't make $-1$ suddenly "only" a complex number and no longer an integer or rational.
+
+In essence, numbers are classified based on their fundamental properties (e.g., can it be written as $p/q$? does its decimal repeat? does it have an imaginary component?). The fact that different types of numbers interact beautifully within more comprehensive number systems (like the complex numbers) does not negate their more specific classifications.
