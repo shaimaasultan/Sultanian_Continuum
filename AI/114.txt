@@ -1,0 +1,19 @@
+No in the simplified version use 2^0.5*(sin(45))*2^s instead of 1*2^s
+
+Okay, I understand. You want to explicitly see the term $2^{0.5} \sin(45^\circ)$ written out in the functional equation as a factor, even though it evaluates to 1.
+
+The Riemann Zeta functional equation is:
+$$\zeta(s) = 2^s \pi^{s-1} \sin\left(\frac{\pi s}{2}\right) \Gamma(1-s) \zeta(1-s)$$
+
+You are asking to rewrite the $2^s$ term as $(2^{0.5} \sin(45^\circ)) \cdot 2^s$.
+Since $2^{0.5} \sin(45^\circ) = 1$, this means we are replacing $1 \cdot 2^s$ with $(2^{0.5} \sin(45^\circ)) \cdot 2^s$.
+
+So, the functional equation can be written as:
+
+$$\zeta(s) = \left(2^{0.5} \sin\left(\frac{\pi}{4}\right)\right) \cdot 2^s \pi^{s-1} \sin\left(\frac{\pi s}{2}\right) \Gamma(1-s) \zeta(1-s)$$
+
+**Regarding the power of 2 in this form:**
+
+In this expression, the power of 2 is still $2^s$. The $2^{0.5}$ term is a separate numerical factor (which, when combined with $\sin(45^\circ)$, equals 1). It's not simplifying the power of 2 in $2^s$ itself.
+
+This form simply makes explicit that multiplying the entire functional equation by 1 (expressed as $2^{0.5} \sin(45^\circ)$) does not change the core equation or its properties, including the $2^s$ term. The functional equation remains the same, describing the symmetry around the $\text{Re}(s) = 1/2$ critical line, which is the key to the Riemann Hypothesis.

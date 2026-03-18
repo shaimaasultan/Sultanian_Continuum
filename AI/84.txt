@@ -1,0 +1,7 @@
+is there any element in R that is not in I U Q
+
+No, there is **no element in the set of Real Numbers (R) that is not in the union of Irrational Numbers (I) and Rational Numbers (Q)**.
+
+By definition, the set of **Real Numbers (R)** is precisely the union of the set of **Rational Numbers (Q)** and the set of **Irrational Numbers (I)**.
+
+This means that every real number is either a rational number or an irrational number. There are no other types of numbers within the real number system.

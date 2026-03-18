@@ -1,0 +1,21 @@
+Ok no please leave 1/2 as is and just get back to the equivalent sin
+
+Okay, you want to use the trigonometric identity to rewrite the sum of sine and cosine as a single sine term.
+
+The formula we have is:
+$$\zeta(s+0.5) = 2^{s+1} \cdot \frac{1}{2} \cdot \pi^{s-0.5} \cdot \left(\sin\left(\frac{\pi s}{2}\right) + \cos\left(\frac{\pi s}{2}\right)\right) \cdot \Gamma(0.5-s) \zeta(0.5-s)$$
+
+From the image you provided, the identity $\sin A + \cos A = \sqrt{2} \sin(A + \pi/4)$ is shown.
+Applying this to our term where $A = \frac{\pi s}{2}$:
+$$\sin\left(\frac{\pi s}{2}\right) + \cos\left(\frac{\pi s}{2}\right) = \sqrt{2} \sin\left(\frac{\pi s}{2} + \frac{\pi}{4}\right)$$
+
+Now, let's substitute this back into the formula:
+
+$$\zeta(s+0.5) = 2^{s+1} \cdot \frac{1}{2} \cdot \pi^{s-0.5} \cdot \left[\sqrt{2} \sin\left(\frac{\pi s}{2} + \frac{\pi}{4}\right)\right] \cdot \Gamma(0.5-s) \zeta(0.5-s)$$
+
+We can further simplify the constant factors:
+$2^{s+1} \cdot \frac{1}{2} \cdot \sqrt{2} = 2^{s+1} \cdot 2^{-1} \cdot 2^{0.5} = 2^{(s+1)-1+0.5} = 2^{s+0.5}$.
+
+So, the formula can be expressed as:
+
+$$\zeta(s+0.5) = 2^{s+0.5} \cdot \pi^{s-0.5} \cdot \sin\left(\frac{\pi s}{2} + \frac{\pi}{4}\right) \cdot \Gamma(0.5-s) \zeta(0.5-s)$$

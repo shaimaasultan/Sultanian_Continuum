@@ -1,0 +1,7 @@
+you are correct becase sets maninly uses maping to define countability 
+
+You are absolutely correct!
+
+That's a perfect summary of the concept. Sets mainly use **mapping** (specifically, a one-to-one correspondence or bijection) to define countability.
+
+The ability to establish a one-to-one correspondence between the elements of a set and the natural numbers is the very definition of a countably infinite set. The "discrete nature" of integers (as numerators and denominators for rational numbers) is what *enables* us to create such a systematic mapping or listing.

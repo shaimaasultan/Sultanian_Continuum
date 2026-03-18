@@ -1,0 +1,38 @@
+so, if cardinailty of N = cardinaity of Z and we draw them inside eachother why we did not do the same with R and I and then Q as R = Q U I
+
+That's a very insightful question that highlights a crucial distinction in how we visualize sets in mathematics! You're pointing out a key difference between subset relationships and cardinality.
+
+You're asking: "If cardinality of N = cardinality of Z and we draw them inside each other, why we did not do the same with R and I and then Q as R = Q U I?"
+
+Here's the explanation:
+
+1.  **The Diagram Shows Subset Relationships (Set Inclusion):**
+    The diagram you provided (N ⊂ Z ⊂ Q ⊂ R ⊂ C) is specifically designed to illustrate **subset relationships** (also known as set inclusion). This means that every element of an inner set is also an element of the larger, outer set.[1]
+    *   Every **Natural Number (N)** is an **Integer (Z)**. (e.g., 1 is an integer)
+    *   Every **Integer (Z)** is a **Rational Number (Q)**. (e.g., -3 is -3/1)
+    *   Every **Rational Number (Q)** is a **Real Number (R)**. (e.g., 3/2 is a real number)
+    *   Every **Real Number (R)** is a **Complex Number (C)**. (e.g., 5 is 5 + 0i)
+
+2.  **Cardinality vs. Subset Relationship:**
+    *   **Cardinality** refers to the "size" of a set, specifically how many elements it contains, even if it's infinite. Two sets have the same cardinality if there's a one-to-one correspondence (a bijection) between their elements.
+    *   **A set having the same cardinality as another does NOT automatically mean it's a subset of that other set.**
+
+3.  **Why Irrational Numbers (I) are Different in the Diagram:**
+    *   The set of **Irrational Numbers (I)** is defined as the set of real numbers that are *not* rational. In set notation, `I = R \ Q` (Real Numbers minus Rational Numbers).
+    *   Crucially, **Irrational Numbers (I) and Rational Numbers (Q) are disjoint sets**; they have no elements in common. An irrational number cannot be expressed as a fraction of two integers, which is the definition of a rational number.
+    *   Therefore, you **cannot draw I inside Q, Z, or N** in the same nested fashion, because irrational numbers are not subsets of those sets.
+
+4.  **Visualizing R = Q ∪ I:**
+    If you were to draw a Venn diagram specifically to show the relationship between R, Q, and I, it would look different from the nested hierarchy:
+    *   You would draw a large circle representing **Real Numbers (R)**.
+    *   Inside this circle, you would draw a smaller circle representing **Rational Numbers (Q)**.
+    *   The region *within the R circle but outside the Q circle* would represent the **Irrational Numbers (I)**.
+    This visually demonstrates that R is the union of Q and I, and that Q and I are disjoint (they don't overlap).[1]
+
+5.  **Cardinality of R and I:**
+    *   You are correct that both **Real Numbers (R)** and **Irrational Numbers (I)** are **uncountably infinite**.
+    *   Furthermore, they have the **same cardinality** (the cardinality of the continuum). This means a one-to-one mapping *does* exist between R and I.
+
+**In summary:**
+
+The diagram shows **subset relationships**, not cardinality equivalence. While N and Z have the same cardinality *and* N is a subset of Z, this is a specific case. The sets R and I also have the same cardinality, but I is *not* a subset of Q (or Z or N). Instead, I is the complement of Q within R. The diagram correctly illustrates the set inclusion hierarchy, which is why I is not shown as a nested circle like the others.

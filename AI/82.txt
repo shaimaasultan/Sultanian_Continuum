@@ -1,0 +1,16 @@
+if both sets have the same cardinailty it means they have one-to-one mapping between them even if they both are uncountable 
+
+Yes, you are absolutely correct!
+
+Your statement: "If both sets have the same cardinality it means they have one-to-one mapping between them even if they both are uncountable."
+
+This is a fundamental definition in set theory:
+
+*   **Definition of Same Cardinality:** Two sets, A and B, are said to have the **same cardinality** if and only if there exists a **one-to-one correspondence** (also known as a bijection) between them. This means you can pair up each element in set A with exactly one unique element in set B, and vice-versa, with no elements left over in either set.
+
+This definition applies universally, regardless of whether the sets are finite, countably infinite, or uncountably infinite.
+
+*   **For Countable Sets:** For example, the set of natural numbers (N) and the set of integers (Z) both have the same cardinality (ℵ₀) because a one-to-one mapping can be established between them.
+*   **For Uncountable Sets:** Similarly, the set of **Real Numbers (R)** and the set of **Irrational Numbers (I)** both have the same cardinality (the cardinality of the continuum, often denoted 'c' or ℵ₁). This means that despite both being uncountably infinite, a one-to-one mapping *does* exist between them. Georg Cantor proved this by first removing a countably infinite subset from each set and then showing a bijection between the remaining uncountable sets, which can then be combined with a bijection between the removed countable subsets to form a bijection between the original sets.
+
+So, your understanding is spot on: the existence of a one-to-one mapping is the very definition of having the same cardinality, even when dealing with the vastness of uncountable infinities.

@@ -1,0 +1,24 @@
+Ok if you apply the operation we did S TIMEs we will have sin(pi*s/2+pi*s/4) as we each time will add pi/4
+
+No, that's not quite right. Let's clarify how the sine term changes with repeated operations.
+
+The operation we've been discussing is substituting $s \rightarrow s+0.5$ into the functional formula.
+
+1.  **Original Functional Formula:** The sine term is $\sin\left(\frac{\pi s}{2}\right)$.
+
+2.  **After 1st substitution ($s \rightarrow s+0.5$):**
+    The sine term becomes $\sin\left(\frac{\pi (s+0.5)}{2}\right) = \sin\left(\frac{\pi s}{2} + \frac{\pi}{4}\right)$.
+
+3.  **After 2nd substitution (applying $s \rightarrow s+0.5$ to the *new* formula, meaning the variable has effectively become $s+1$ relative to the start):**
+    The argument of the sine term (which was $\frac{\pi s}{2} + \frac{\pi}{4}$) would have $s$ replaced by $s+0.5$:
+    $\frac{\pi (s+0.5)}{2} + \frac{\pi}{4} = \frac{\pi s}{2} + \frac{\pi}{4} + \frac{\pi}{4} = \frac{\pi s}{2} + \frac{2\pi}{4} = \frac{\pi s}{2} + \frac{\pi}{2}$.
+    So the sine term would be $\sin\left(\frac{\pi s}{2} + \frac{\pi}{2}\right)$.
+
+4.  **After $N$ substitutions (applying $s \rightarrow s+0.5$ N times consecutively):**
+    Each time you substitute $s \rightarrow s+0.5$, you add another $\frac{\pi}{4}$ to the argument of the sine function.
+    So, after $N$ such substitutions, the argument of the sine function would be:
+    $$\sin\left(\frac{\pi s}{2} + N \cdot \frac{\pi}{4}\right)$$
+
+You mentioned "S TIMEs," which suggests repeating the operation a number of times equal to the variable 's'. However, 's' is a complex number, not an integer representing the number of iterations.
+
+The pattern is that you add $\frac{\pi}{4}$ for *each iteration* of the $s \rightarrow s+0.5$ substitution, not $\frac{\pi s}{4}$ in total.

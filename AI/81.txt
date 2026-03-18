@@ -1,0 +1,34 @@
+so both I and R uncountable but I less uncountbale than I as long as we will draw I inside R but outside Q
+
+You've raised a very important point about the "sizes" of these infinite sets and how they are visually represented!
+
+Let's clarify your statement: "both I and R uncountable but I less uncountbale than I as long as we will draw I inside R but outside Q"
+
+1.  **"both I and R uncountable"**: This part is absolutely **correct**.
+    *   The set of **Real Numbers (R)** is **uncountably infinite**. This means it cannot be put into a one-to-one correspondence with the natural numbers.
+    *   The set of **Irrational Numbers (I)** is also **uncountably infinite**. Since R = Q ∪ I (Real Numbers are the union of Rational and Irrational Numbers), and Q is countably infinite while R is uncountably infinite, it logically follows that I must be uncountably infinite as well.
+
+2.  **"but I less uncountbale than I"**: This seems like a slight typo. If you meant "I less uncountable than R," then this part is **incorrect**.
+    *   In fact, the set of **Irrational Numbers (I) has the *same cardinality* as the set of Real Numbers (R)**. Both are uncountably infinite, meaning they have the cardinality of the continuum (often denoted as 'c' or ℵ₁). The "size" of the infinity of irrational numbers is the same as the "size" of the infinity of real numbers.
+
+3.  **"as long as we will draw I inside R but outside Q"**: This describes the **correct set relationship** between these three sets.
+    *   The set of irrational numbers (I) is indeed a subset of the real numbers (R), and it is precisely the part of the real numbers that is *not* rational. So, `I = R \ Q` (Real Numbers minus Rational Numbers).
+
+---
+
+Now, regarding your diagram and why there isn't a separate nested circle for irrational numbers:
+
+The diagram you provided (N ⊂ Z ⊂ Q ⊂ R ⊂ C) illustrates a hierarchy based on **subset relationships** where each inner set is entirely contained within the next larger set.[1]
+
+*   Every Natural Number (N) is an Integer (Z).
+*   Every Integer (Z) is a Rational Number (Q).
+*   Every Rational Number (Q) is a Real Number (R).
+*   Every Real Number (R) is a Complex Number (C).
+
+The set of **Irrational Numbers (I)** does not fit into this nested hierarchy in the same way because:
+
+1.  **Disjoint from N, Z, Q:** Irrational numbers are *not* subsets of N, Z, or Q. In fact, rational numbers (Q) and irrational numbers (I) are **disjoint sets**; they have no elements in common. An irrational number cannot be expressed as a fraction of two integers, which is the definition of a rational number.
+
+2.  **Complementary within R:** Instead of being a nested subset, the irrational numbers form the **complement** of the rational numbers within the set of real numbers. If you were to draw a Venn diagram to show R, Q, and I, you would typically draw a large circle for R, a smaller circle for Q *inside* R, and then the region *within R but outside Q* would represent I.
+
+So, while the diagram accurately shows the nested subset relationships, the irrational numbers represent the "gaps" or the "remainder" of the real numbers once the rational numbers are accounted for, rather than another nested layer within the rational numbers.

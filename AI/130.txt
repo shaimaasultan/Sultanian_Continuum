@@ -1,0 +1,21 @@
+The real part only becomes 0.5 only if the original real part sigma was zero means it was lie on the original imaginary axis correct
+
+
+Yes, that is correct.
+
+If you have a complex number $s = \sigma + it$, and you add $0.5$ to $s$ to get $s' = s + 0.5 = (\sigma + 0.5) + it$.
+
+For the real part of $s'$ (which is $\sigma + 0.5$) to be $0.5$, then $\sigma + 0.5 = 0.5$ must be true. This implies that $\sigma = 0$.
+
+So, if the original real part ($\sigma$) was zero, meaning the original number $s$ was on the imaginary axis, then adding $0.5$ to $s$ would indeed place its real part at $0.5$.
+
+
+
+And in order to lie on the imaginary axis x axis value must be zero
+
+
+Yes, that is also correct.
+
+In the complex plane, the imaginary axis is defined as the set of all complex numbers where the real part is zero. So, for a complex number $s = \sigma + it$, to lie on the imaginary axis, its real part $\sigma$ must be equal to zero.
+
+

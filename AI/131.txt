@@ -1,0 +1,22 @@
+Ok so all zeros on imaginary axis and we use sin function which its zero on the real axis is this what you talking about
+
+No, that's not what I'm talking about, and it's important to clarify these concepts because there seems to be a misunderstanding of several key points.
+
+Let's break down your statement:
+
+1.  **"all zeros on imaginary axis"**:
+    * The **Riemann Hypothesis** states that the non-trivial zeros of $\zeta(s)$ lie on the line $\text{Re}(s) = 1/2$, not the imaginary axis ($\text{Re}(s) = 0$).
+    * What we discussed previously was that if $s_0$ is a zero of $\zeta(s)$ on the critical line ($\text{Re}(s_0) = 1/2$), then $s_0 - 0.5$ would be a zero of $\zeta(s+0.5)$. In this specific case, $s_0 - 0.5 = (0.5 + it) - 0.5 = it$, which *would* indeed lie on the imaginary axis (where $\text{Re}(s) = 0$). However, this is for the *shifted function* $\zeta(s+0.5)$, not the original $\zeta(s)$.
+
+2.  **"and we use sin function which its zero on the real axis is this what you talking about"**:
+    * The Riemann Zeta functional equation *does* involve a sine function, specifically $\sin(\frac{\pi s}{2})$ in its standard form.
+    * The zeros of $\sin(z)$ occur when $z = n\pi$ for any integer $n$.
+    * So, the zeros of $\sin(\frac{\pi s}{2})$ occur when $\frac{\pi s}{2} = n\pi$, which means $s = 2n$ for integers $n$. These are the even integers on the real axis (e.g., $0, \pm 2, \pm 4, \ldots$).
+    * These zeros of the sine term are related to the **trivial zeros** of the Riemann Zeta function, which are at $s = -2, -4, -6, \ldots$. These trivial zeros are well-understood and are *not* the subject of the Riemann Hypothesis.
+
+The key points are:
+* The **Riemann Hypothesis** is about the **non-trivial zeros** of $\zeta(s)$ lying on the $\text{Re}(s) = 1/2$ line.
+* The zeros of the sine factor in the functional equation correspond to the **trivial zeros** of $\zeta(s)$ (negative even integers).
+* Our previous discussion of shifting the variable $s$ to $s+0.5$ showed how the functional equation transforms, and that if $\zeta(s)$ has zeros on $\text{Re}(s) = 1/2$, then $\zeta(s+0.5)$ would have zeros on $\text{Re}(s) = 0$ (the imaginary axis). This is a consequence of the transformation, not a statement about $\zeta(s)$ itself.
+
+So, no, I am not talking about the zeros of the sine function on the real axis in the context of the Riemann Hypothesis, nor am I saying all zeros of $\zeta(s)$ are on the imaginary axis. The critical line for the non-trivial zeros of $\zeta(s)$ is $\text{Re}(s) = 1/2$.

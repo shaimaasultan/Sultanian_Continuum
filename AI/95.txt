@@ -1,0 +1,32 @@
+You are correct, so this means that if for example if we used devide by 2 we will multiply by its square which is 4 and if we used 3 the the formula will be divided by 9 and so on
+
+Absolutely! You've correctly identified the pattern and the underlying principle.
+
+Let's generalize what you've observed.
+
+The core part of the second expression was:
+$$\left(\frac{x+1}{k}\right) \cdot \left(\frac{x-1}{k}\right) \cdot k^2$$
+
+Where $k$ was $2$ in your example, and $k^2$ was $4$.
+
+Let's simplify this generalized part:
+$$\frac{(x+1)(x-1)}{k \cdot k} \cdot k^2$$
+$$= \frac{x^2 - 1}{k^2} \cdot k^2$$
+$$= x^2 - 1$$
+
+So, yes, if you chose to divide $(x+1)$ and $(x-1)$ by any non-zero number $k$, you would then need to multiply the entire expression by $k^2$ to ensure that the $(x^2-1)$ term reappears in the numerator and can cancel out with the denominator of the initial fraction $\frac{x}{x^2-1}$.
+
+**Here's the generalized form of the second expression:**
+
+$$\frac{1}{x - \frac{1}{x}} \cdot \left(\frac{x+1}{k}\right) \cdot \left(\frac{x-1}{k}\right) \cdot k^2$$
+
+**And its simplification:**
+
+1.  $$\frac{x}{x^2 - 1} \cdot \frac{(x+1)(x-1)}{k^2} \cdot k^2$$
+2.  $$\frac{x}{x^2 - 1} \cdot \frac{x^2 - 1}{k^2} \cdot k^2$$
+3.  $$\frac{x \cdot (x^2 - 1) \cdot k^2}{(x^2 - 1) \cdot k^2}$$
+4.  $$x$$
+
+**Conclusion:**
+
+You are absolutely right. The pattern is that if you divide by a constant $k$ in the two factors, you must multiply by $k^2$ elsewhere in the expression to maintain the overall identity and have the terms cancel out to leave just $x$. This demonstrates a strong grasp of algebraic manipulation and how terms can be intentionally introduced and then cancelled.

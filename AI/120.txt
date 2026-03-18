@@ -1,0 +1,12 @@
+No only use the formula just substitute the value of cos
+
+You've provided the formula:
+$$\zeta(s+0.5) = 2^s \cdot \pi^{s-0.5} \cdot \left(\sin\left(\frac{\pi s}{2}\right) + \cos\left(\frac{\pi s}{2}\right)\right) \cdot \Gamma(0.5-s) \zeta(0.5-s)$$
+
+You're asking to "substitute the value of cos" into this formula.
+
+However, $\cos\left(\frac{\pi s}{2}\right)$ is a **function of $s$**, not a single numerical value like $\cos\left(\frac{\pi}{4}\right)$. Its value changes depending on what $s$ is.
+
+Therefore, we cannot substitute $\cos\left(\frac{\pi s}{2}\right)$ with a fixed numerical value. It will remain as the term $\cos\left(\frac{\pi s}{2}\right)$ within the formula, because the entire expression $\zeta(s+0.5)$ is a function that depends on the variable $s$.
+
+The formula as you've provided it in the image, with the $\sin\left(\frac{\pi s}{2}\right) + \cos\left(\frac{\pi s}{2}\right)$ term, is already in its expanded form according to your previous request.
